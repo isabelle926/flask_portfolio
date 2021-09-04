@@ -7,7 +7,21 @@ Table of contents:
 - project idea 
 - parts of project 
 
-## Grade 4/4 (per group member)
+## PBL Individual Grade (4/4)
+
+Vidhi: [TPT 1 Notes](https://docs.google.com/document/d/1B2hlou672M8ee1UaAVjZjwTohSABUdhHLgQxoh7JLNA/edit)
+
+Isabelle: [TPT 1 Notes](https://docs.google.com/document/d/1B2hlou672M8ee1UaAVjZjwTohSABUdhHLgQxoh7JLNA/edit)
+
+Kaavya: [TPT 1 Notes](https://docs.google.com/document/d/1B2hlou672M8ee1UaAVjZjwTohSABUdhHLgQxoh7JLNA/edit)
+
+Kamya: [TPT 1 Notes](https://docs.google.com/document/d/1B2hlou672M8ee1UaAVjZjwTohSABUdhHLgQxoh7JLNA/edit)
+
+Our personal work plans are in the Scrum Board
+
+Each of us made our own Greet page.
+
+## PBL Scrum Team Grade 4/4 (per group member)
 
 Scrum Master (Vidhi Kulkarni): Created issues to the scrum board as well,assigned tasks to each of the group members,added descriptions and links to issues,moved issues through, to the Scrum Board as they progressed, added scores to and descriptions to README
 
