@@ -53,6 +53,7 @@ Evidence: [Video 0](https://github.com/isabelle926/flask_portfolio/issues/2)
 
 
 
+## Description
 Members: Kamya Mahendru, Isabelle Gunawan, Kaavya, Vidhi Kulkarni
  
 Project Idea: Create a website where high school students can find jobs, internships, and summer programs
