@@ -74,6 +74,10 @@ def isabelle():
     # starting and empty input default
     return render_template("isabelle.html", name1="World")
 
+@app.route('/Videos/')
+def Videos():
+    return render_template("Videos.html")
+
 
 
 
