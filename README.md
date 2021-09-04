@@ -24,9 +24,9 @@ Navigators (Kamya Mahendru): Capture or build highlight of Ideation in README
 
 Evidence: [README](https://github.com/isabelle926/flask_portfolio/blob/main/README.md#ideation)
 
-Developers (Vidhi Kulkarni): Bootstrap drop downs in navbar, start to form Wire Frame menu options. Each menu option should have a Stub code page
+Developers (Vidhi Kulkarni):  Bootstrap drop downs in navbar, start to form Wire Frame menu options. Each menu option should have a Stub code page
 
-Evidence:[navbar.html](https://github.com/isabelle926/flask_portfolio/blob/main/templates/layouts/navbar.html)
+Evidence: [navbar.html](https://github.com/isabelle926/flask_portfolio/blob/main/templates/layouts/navbar.html)
 
 Developers (Isabelle Gunawan): Integration of Greet like functionality into a mini-lab page
 
