@@ -18,11 +18,11 @@ Evidence: [Wire Frame](https://www.canva.com/design/DAEomzY4HxE/wrJb8x3Axf6FwXgu
 
 Technical Lead (Isabelle Gunawan): Coordinated brain write sessions
 
-Evidence:[Scrum Board Issue](https://github.com/isabelle926/flask_portfolio/issues/4)
+Evidence: [Scrum Board Issue](https://github.com/isabelle926/flask_portfolio/issues/4)
 
 Navigators (Kamya Mahendru): Capture or build highlight of Ideation in README
 
-Evidence:[README](https://github.com/isabelle926/flask_portfolio/blob/main/README.md#ideation)
+Evidence: [README](https://github.com/isabelle926/flask_portfolio/blob/main/README.md#ideation)
 
 Developers (Vidhi Kulkarni): Bootstrap drop downs in navbar, start to form Wire Frame menu options. Each menu option should have a Stub code page
 
@@ -30,11 +30,11 @@ Evidence:(navbar.html)[https://github.com/isabelle926/flask_portfolio/blob/main/
 
 Developers (Isabelle Gunawan): Integration of Greet like functionality into a mini-lab page
 
-Evidence:[Greet Code](https://github.com/isabelle926/flask_portfolio/issues/7)
+Evidence: [Greet Code](https://github.com/isabelle926/flask_portfolio/issues/7)
 
 Developers (Kaavya Ramakumar): Integration of Video Journal 0 into a mini-lab page 
 
-Evidence:[Video 0](https://github.com/isabelle926/flask_portfolio/issues/2)
+Evidence: [Video 0](https://github.com/isabelle926/flask_portfolio/issues/2)
 
 
 
