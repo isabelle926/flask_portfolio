@@ -1,6 +1,7 @@
 ## [Epic Coders P4 Project ](https://nighthawkcodingsociety.com/projectsearch/details/Flask%20Portfolio%20Starter)
 Runtime link: https://portfolio.nighthawkcodingsociety.com/
-Table of contents
+
+Table of contents:
 - grading 
 - members 
 - project idea 
