@@ -9,7 +9,7 @@ Table of contents:
 
 ## PBL Individual Grade (4/4)
 
-Vidhi: [TPT 1 Notes](https://docs.google.com/document/d/1JuOseRKyqB58OoGf2E2ej_ENLShwoKL0GvRnsWW68jc/edit)
+Vidhi: [TPT 1 Notes](https://docs.google.com/document/d/1JuOseRKyqB58OoGf2E2ej_ENLShwoKL0GvRnsWW68jc/edit?usp=sharing)
 
 Isabelle: [TPT 1 Notes](https://docs.google.com/document/d/1B2hlou672M8ee1UaAVjZjwTohSABUdhHLgQxoh7JLNA/edit)
 
