@@ -7,22 +7,34 @@ Table of contents
 - parts of project 
 
 ## Grade 4/4 (per group member)
-Scrum Master (Vidhi K): Created issues to the scrum board as well as assigned tasks to each of the group members 
 
-Evidence: Scrum Board
-Designer. Wire Frame (at least three theme pages, team mini-labs, and about)
+Scrum Master (Vidhi Kulkarni): Created issues to the scrum board as well,assigned tasks to each of the group members,added descriptions and links to issues,moved issues through, to the Scrum Board as they progressed, added scores to and descriptions to README
 
-Evidence: Wire frame linked in the completed section of scrum board
+Evidence: [Scrum Board](https://github.com/isabelle926/flask_portfolio/projects/1)
 
-Technical Lead. Coordinate brain write session, after preliminary wire frames, make sure you capture technical complexities as an output of this exercise (input, saving data, comments, visual actions, animations, ...) (Done by Isabelle)
+Designer (Kamya Mahendru): Created Wire Frame (included at least three theme pages, team mini-labs, and about)
 
-Navigators. Capture or build highlight of Ideation in README.md, this allows ideas to persist with Project, Make sure that work from Developers works to expectations (testing, suggestions for improvement) (Done by Kamya)
+Evidence: [Wire Frame](https://www.canva.com/design/DAEomzY4HxE/wrJb8x3Axf6FwXguh5liiA/edit) (also linked in the Review Ready section of Scrum Board)
 
-Developers. Bootstrap drop downs in navbar, start to form Wire Frame menu options. Each menu option should have a Stub code page (Done by Vidhi)
+Technical Lead (Isabelle Gunawan): Coordinated brain write sessions
 
-Developers. Integration of Greet like functionality into a mini-lab page (Done by Isabelle)
+Evidence:[Scrum Board Issue](https://github.com/isabelle926/flask_portfolio/issues/4)
 
-Developers. Integration of Video Journal 0 into a mini-lab page (Done by Kaavya)
+Navigators (Kamya Mahendru): Capture or build highlight of Ideation in README
+
+Evidence:[README](https://github.com/isabelle926/flask_portfolio/blob/main/README.md#ideation)
+
+Developers (Vidhi Kulkarni): Bootstrap drop downs in navbar, start to form Wire Frame menu options. Each menu option should have a Stub code page
+
+Evidence:(navbar.html)[https://github.com/isabelle926/flask_portfolio/blob/main/templates/layouts/navbar.html]
+
+Developers (Isabelle Gunawan): Integration of Greet like functionality into a mini-lab page
+
+Evidence:[Greet Code](https://github.com/isabelle926/flask_portfolio/issues/7)
+
+Developers (Kaavya Ramakumar): Integration of Video Journal 0 into a mini-lab page 
+
+Evidence:[Video 0](https://github.com/isabelle926/flask_portfolio/issues/2)
 
 
 
