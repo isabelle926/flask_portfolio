@@ -15,7 +15,7 @@ Isabelle: [TPT 1 Notes](https://docs.google.com/document/d/1B2hlou672M8ee1UaAVjZ
 
 Kaavya: [TPT 1 Notes](https://docs.google.com/document/d/1B2hlou672M8ee1UaAVjZjwTohSABUdhHLgQxoh7JLNA/edit)
 
-Kamya: [TPT 1 Notes](https://docs.google.com/document/d/1B2hlou672M8ee1UaAVjZjwTohSABUdhHLgQxoh7JLNA/edit)
+Kamya: [TPT 1 Notes](https://docs.google.com/document/d/1koXegOZ1jza-OD2gS_Z-7TFFqRVLtRZc2u9z5Katis8/edit?usp=sharing)
 
 Our personal work plans are in the Scrum Board
 
