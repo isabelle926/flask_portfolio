@@ -50,9 +50,9 @@ def kamya():
     if request.form:
         name = request.form.get("name")
         if len(name) != 0:  # input field has content
-            return render_template("kamya.html", name1=name)
+            return render_template("kamya.html", name2=name)
     # starting and empty input default
-    return render_template("kamya.html", name1="World")
+    return render_template("kamya.html", name2="World")
 
 @app.route('/kaavya', methods=['GET', 'POST'])
 def kaavya():
