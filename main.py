@@ -32,6 +32,8 @@ def stub():
     return render_template("stub.html")
 
 
+
+
 @app.route('/vidhi', methods=['GET', 'POST'])
 def vidhi():
     # submit button has been pushed
@@ -41,6 +43,38 @@ def vidhi():
             return render_template("vidhi.html", name1=name)
     # starting and empty input default
     return render_template("vidhi.html", name1="World")
+
+@app.route('/kamya', methods=['GET', 'POST'])
+def kamya():
+    # submit button has been pushed
+    if request.form:
+        name = request.form.get("name")
+        if len(name) != 0:  # input field has content
+            return render_template("kamya.html", name1=name)
+    # starting and empty input default
+    return render_template("kamya.html", name1="World")
+
+@app.route('/kaavya', methods=['GET', 'POST'])
+def kaavya():
+    # submit button has been pushed
+    if request.form:
+        name = request.form.get("name")
+        if len(name) != 0:  # input field has content
+            return render_template("kaavya.html", name1=name)
+    # starting and empty input default
+    return render_template("kaavya.html", name1="World")
+
+@app.route('/isabelle', methods=['GET', 'POST'])
+def isabelle():
+    # submit button has been pushed
+    if request.form:
+        name = request.form.get("name")
+        if len(name) != 0:  # input field has content
+            return render_template("isabelle.html", name1=name)
+    # starting and empty input default
+    return render_template("isabelle.html", name1="World")
+
+
 
 
 # runs the application on the development server
