@@ -21,28 +21,19 @@ This HTML is setup as a fragment allowing it to be "included" by other HTML file
 
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarLabs" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    About Us
+                    Greet Pages
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="/algorithm/fibonacci">Kamya and Kaavya</a>
-                    <a class="dropdown-item" href="/algorithm/palindrome">Vidhi and Isabelle</a>
+                    <a class="dropdown-item" href={{ url_for('kamya') }}>Kamya</a>
+                    <a class="dropdown-item" href= {{ url_for('kaavya') }}>Kaavya</a>
+                    <a class="dropdown-item" href={{ url_for('isabelle') }}>Isabelle</a>
+                    <a class="dropdown-item" href={{ url_for('vidhi') }}>Vidhi</a>
                 </div>
             </li>
             <li class="nav-item active">
                 <a class="nav-link" href="/">Jobs<span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item active">
-                <a class="nav-link" href={{ url_for('vidhi') }}>Vidhi<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item active">
-                <a class="nav-link" href={{ url_for('kamya') }}>Kamya<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item active">
-                <a class="nav-link" href={{ url_for('kaavya') }}>Kaavya<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item active">
-                <a class="nav-link" href={{ url_for('isabelle') }}>Isabelle<span class="sr-only">(current)</span></a>
-            </li>
+
             <li class="nav-item active">
                 <a class="nav-link" href={{ url_for('video') }}>Journal 0<span class="sr-only">(current)</span></a>
             </li>
