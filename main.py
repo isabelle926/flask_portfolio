@@ -16,10 +16,23 @@ def index():
 def about_us():
     return render_template("about_us.html")
 
+@app.route('/jobs/')
+def jobs():
+    return render_template("jobs.html")
 
-@app.route('/walruses/')
-def walruses():
-    return render_template("walruses.html")
+
+@app.route('/questionnaires/')
+def questionnaires():
+    return render_template("questionnaires.html")
+
+@app.route('/sign_up/')
+def sign_up():
+    return render_template("sign_up.html")
+
+
+@app.route('/mini_labs/')
+def mini_labs():
+    return render_template("mini_labs.html")
 
 
 @app.route('/hawkers/')
