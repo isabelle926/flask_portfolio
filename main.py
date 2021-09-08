@@ -12,9 +12,9 @@ def index():
 
 
 # connects /kangaroos path to render kangaroos.html
-@app.route('/kangaroos/')
-def kangaroos():
-    return render_template("kangaroos.html")
+@app.route('/about_us/')
+def about_us():
+    return render_template("about_us.html")
 
 
 @app.route('/walruses/')
