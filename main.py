@@ -29,6 +29,10 @@ def questionnaires():
 def sign_up():
     return render_template("sign_up.html")
 
+@app.route('/binary/')
+def binary():
+    return render_template("binary.html")
+
 
 @app.route('/mini_labs/')
 def mini_labs():
