@@ -9,7 +9,7 @@ Table of contents:
 
 | Contributers | Data |
 | ----------- | ----------- |
-| Team Name:  | Title |
+| Epic Coders, [Scrum Board](https://github.com/isabelle926/flask_portfolio/projects/1), Repo contributers, [Vidhi and Isabelle's Pair Share Journal](https://github.com/isabelle926/flask_portfolio/projects/1),|
 | Paragraph | Text |
 
 ## PBL Individual Grade (4/4)
