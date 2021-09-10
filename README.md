@@ -9,11 +9,12 @@ Table of contents:
 
 | Contributers | Data |
 | ----------- | ----------- |
-| Epic Coders, [Scrum Board](https://github.com/isabelle926/flask_portfolio/projects/1), Repo contributers, [Vidhi and Isabelle's Pair Share Journal](https://github.com/isabelle926/flask_portfolio/projects/1),|
-| Vidhi | [Github ID](https://github.com/VidhiKulkarni), [Tasks](https://github.com/VidhiKulkarni), [Scrum Board](https://github.com/isabelle926/flask_portfolio/projects/1), [Commits](https://github.com/isabelle926/flask_portfolio/commits?author=VidhiKulkarni), [Profile](https://github.com/VidhiKulkarni) |
-| Kaavya | Text |
-| Kamya | Text |
-| Isabelle| Text |
+| Epic Coders, [Scrum Board](https://github.com/isabelle926/flask_portfolio/projects/1), Repo contributers, [Vidhi and Isabelle's Pair Share Journal](https://github.com/isabelle926/flask_portfolio/projects/1), [Kamya and Kaavya's Pair Share Journal](https://docs.google.com/document/d/1x6tj0aUuHELg618rLQFYBfFm4qp73hJDD0RH6kbs4ug/edit?usp=sharing) |
+| Vidhi | Github ID: #32562016, [Tasks](https://github.com/VidhiKulkarni), [Scrum Board](https://github.com/isabelle926/flask_portfolio/projects/1), [Commits](https://github.com/isabelle926/flask_portfolio/commits?author=VidhiKulkarni), [Profile](https://github.com/VidhiKulkarni) |
+| Kaavya | Github ID: #35751349 , [Tasks](https://github.com/isabelle926/flask_portfolio/issues/assigned/rkaavya), [Scrum Board](https://github.com/isabelle926/flask_portfolio/projects/1), Kaavya has not made commits this week -- she was working on designing, [Profile](https://github.com/rkaavya) |
+| Kamya | Github ID: #69766714, [Tasks](https://github.com/isabelle926/flask_portfolio/issues/assigned/kamyamah), [Scrum Board](https://github.com/isabelle926/flask_portfolio/projects/1), [Commits]( https://github.com/isabelle926/flask_portfolio/commits?author=kamyamah), [Profile](https://github.com/kamyamah) |
+| Isabelle| Github ID: #70926137, [Tasks](https://github.com/isabelle926/flask_portfolio/issues/assigned/isabelle926), [Scrum Board]
+(https://github.com/isabelle926/flask_portfolio/projects/1),  [Commits](https://github.com/isabelle926/flask_portfolio/commits?author=isabelle926), [Profile](https://github.com/isabelle926) |
 
 ## PBL Individual Grade (4/4)
 
