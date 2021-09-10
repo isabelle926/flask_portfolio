@@ -7,8 +7,10 @@ Table of contents:
 - project idea 
 - parts of project 
 
-|Contributers Data|
-|---------|-------|
+| Contributers | Data |
+| ----------- | ----------- |
+| Team Name:  | Title |
+| Paragraph | Text |
 
 ## PBL Individual Grade (4/4)
 
