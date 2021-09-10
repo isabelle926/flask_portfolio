@@ -14,7 +14,7 @@ Table of contents:
 | Kaavya | Github ID: #35751349 , [Tasks](https://github.com/isabelle926/flask_portfolio/issues/assigned/rkaavya), [Scrum Board](https://github.com/isabelle926/flask_portfolio/projects/1), Kaavya has not made commits this week -- she was working on designing, [Profile](https://github.com/rkaavya) |
 | Kamya | Github ID: #69766714, [Tasks](https://github.com/isabelle926/flask_portfolio/issues/assigned/kamyamah), [Scrum Board](https://github.com/isabelle926/flask_portfolio/projects/1), [Commits]( https://github.com/isabelle926/flask_portfolio/commits?author=kamyamah), [Profile](https://github.com/kamyamah) |
 | Isabelle| Github ID: #70926137, [Tasks](https://github.com/isabelle926/flask_portfolio/issues/assigned/isabelle926), [Scrum Board]
-(https://github.com/isabelle926/flask_portfolio/projects/1),  [Commits](https://github.com/isabelle926/flask_portfolio/commits?author=isabelle926), [Profile](https://github.com/isabelle926) |
+(https://github.com/isabelle926/flask_portfolio/projects/1), [Commits](https://github.com/isabelle926/flask_portfolio/commits?author=isabelle926), [Profile](https://github.com/isabelle926) |
 
 ## PBL Individual Grade (4/4)
 
