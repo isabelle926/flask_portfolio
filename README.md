@@ -7,7 +7,7 @@ Table of contents:
 - project idea 
 - parts of project 
 
-|Table | Table |
+|Contributers Data|
 |---------|-------|
 
 ## PBL Individual Grade (4/4)
