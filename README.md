@@ -7,6 +7,9 @@ Table of contents:
 - project idea 
 - parts of project 
 
+|Table | Table |
+|---------|-------|
+
 ## PBL Individual Grade (4/4)
 
 Vidhi: [TPT 1 Notes](https://docs.google.com/document/d/1JuOseRKyqB58OoGf2E2ej_ENLShwoKL0GvRnsWW68jc/edit?usp=sharing)
