@@ -10,7 +10,10 @@ Table of contents:
 | Contributers | Data |
 | ----------- | ----------- |
 | Epic Coders, [Scrum Board](https://github.com/isabelle926/flask_portfolio/projects/1), Repo contributers, [Vidhi and Isabelle's Pair Share Journal](https://github.com/isabelle926/flask_portfolio/projects/1),|
-| Paragraph | Text |
+| Vidhi | [Github ID](https://github.com/VidhiKulkarni), [Tasks](https://github.com/VidhiKulkarni), [Scrum Board](https://github.com/isabelle926/flask_portfolio/projects/1), [Commits](https://github.com/isabelle926/flask_portfolio/commits?author=VidhiKulkarni), [Profile](https://github.com/VidhiKulkarni) |
+| Kaavya | Text |
+| Kamya | Text |
+| Isabelle| Text |
 
 ## PBL Individual Grade (4/4)
 
