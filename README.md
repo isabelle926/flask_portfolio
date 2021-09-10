@@ -7,6 +7,14 @@ Table of contents:
 - project idea 
 - parts of project 
 
+| Contributers | Data |
+| ----------- | ----------- |
+| Epic Coders, [Scrum Board](https://github.com/isabelle926/flask_portfolio/projects/1), Repo contributers, [Vidhi and Isabelle's Pair Share Journal](https://github.com/isabelle926/flask_portfolio/projects/1),|
+| Vidhi | [Github ID](https://github.com/VidhiKulkarni), [Tasks](https://github.com/VidhiKulkarni), [Scrum Board](https://github.com/isabelle926/flask_portfolio/projects/1), [Commits](https://github.com/isabelle926/flask_portfolio/commits?author=VidhiKulkarni), [Profile](https://github.com/VidhiKulkarni) |
+| Kaavya | Text |
+| Kamya | Text |
+| Isabelle| Text |
+
 ## PBL Individual Grade (4/4)
 
 Vidhi: [TPT 1 Notes](https://docs.google.com/document/d/1JuOseRKyqB58OoGf2E2ej_ENLShwoKL0GvRnsWW68jc/edit?usp=sharing)
