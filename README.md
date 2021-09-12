@@ -26,7 +26,7 @@ Table of contents:
 | Task | Evidence | Assignees |
 | ----------- | ----------- | ----------- |
 | Create Location for Mini-Labs | [Evidence](https://github.com/isabelle926/flask_portfolio/issues/15) | Vidhi and Isabelle |
-| Add Section for Video | [Evidence](https://github.com/isabelle926/flask_portfolio/issues/21) | Vidhi, Kamya, and Isabelle |
+| Add Section for Video | [Evidence](https://github.com/isabelle926/flask_portfolio/issues/21) | All |
 | Individual Coding | [Evidence](https://github.com/isabelle926/flask_portfolio/issues/16) | All |
 | Individual Research | [Evidence](https://github.com/isabelle926/flask_portfolio/issues/12) | All |
 | Embeds to Brainwrite, Wireframe, etc. | [Evidence](https://github.com/isabelle926/flask_portfolio/issues/14) | All |
