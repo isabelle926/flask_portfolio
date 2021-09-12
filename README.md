@@ -7,6 +7,8 @@ Table of contents:
 - project idea 
 - parts of project 
 
+
+[Scrum Board](https://github.com/isabelle926/flask_portfolio/projects/1) and [Contributers](https://github.com/isabelle926/flask_portfolio/graphs/contributors)
 | Contributers | Data |
 | ----------- | ----------- |
 | Epic Coders, [Scrum Board](https://github.com/isabelle926/flask_portfolio/projects/1), [Repo contributers](https://github.com/isabelle926/flask_portfolio/graphs/contributors), [Vidhi and Isabelle's Pair Share Journal](https://github.com/isabelle926/flask_portfolio/projects/1), [Kamya and Kaavya's Pair Share Journal](https://docs.google.com/document/d/1x6tj0aUuHELg618rLQFYBfFm4qp73hJDD0RH6kbs4ug/edit?usp=sharing) |
