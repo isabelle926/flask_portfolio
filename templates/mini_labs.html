@@ -1,3 +1,4 @@
+{% include "layouts/base.html" %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,19 +6,54 @@
     <title>Title</title>
 </head>
 <body>
-{% include "layouts/navbar.html" %}
+<!--
+    <div class="product" style="margin-top: 2%;">
+        <div class="row" style="padding: 10%; padding-top: 0%; padding-bottom: 5%;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm">
+                        <a style="font-family: 'Trebuchet MS'" href="{{ internships }}" class="btn">Internships</a>
+                    </div>
+                    <div class="col-sm">
+                        <a href="{{ jobs }}" class="btn">Jobs</a>
+                    </div>
+                    <div class="col-sm">
+                        <a href="{{ summer_programs }}" class="btn">Summer Programs</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+-->
 <div class='container-fluid'>
     <div class="row flex">
         <div class="col-md-6">
             <div class="row" id="grid">
-                <div class="col-md-4"><img src="//placehold.it/200x140" class="img-thumbnail img-responsive"></div>
-                <div class="col-md-4"><img src="//placehold.it/200x140" class="img-thumbnail img-responsive"></div>
-                <div class="col-md-4"><img src="//placehold.it/200x140" class="img-thumbnail img-responsive"></div>
-                <div class="col-md-4"><img src="//placehold.it/200x140" class="img-thumbnail img-responsive"></div>
-                <div class="col-md-4"><img src="//placehold.it/200x140" class="img-thumbnail img-responsive"></div>
-                <div class="col-md-4"><img src="//placehold.it/200x140" class="img-thumbnail img-responsive"></div>
-                <div class="col-md-4"><img src="//placehold.it/200x140" class="img-thumbnail img-responsive"></div>
-                <div class="col-md-4"><img src="//placehold.it/200x140" class="img-thumbnail img-responsive"></div>
+                <div class="col-md-4">
+                    <a href="https://www.canva.com/design/DAEomzY4HxE/cmAvGTtzra4ZWqweLoajSA/watch?utm_content=DAEomzY4HxE&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton">Wire Frame</a>
+                </div>
+                <div class="col-md-4">
+                    <a href="https://drive.google.com/drive/u/1/folders/11N_mI3c3KzChG-rejghC2GHgIwK8AmXM">TPT3 Notes</a>
+                </div>
+                <div class="col-md-4">
+                    <a href="https://docs.google.com/document/d/1qDtUjnifNS_yKd3O9zcsb_-oj8veX4eYxAl6DnS-_Fo/edit">Brain Write Ideation</a>
+                </div>
+                <div class="col-md-4">
+                    <a href={{ url_for('kamya') }}>Kamya Greet Page</a>
+                </div>
+                <div class="col-md-4">
+                    <a href={{ url_for('kaavya') }}>Kaavya Greet Page</a>
+                </div>
+                <div class="col-md-4">
+                    <a href={{ url_for('vidhi') }}>Vidhi Greet Page</a>
+                </div>
+                <div class="col-md-4">
+                    <a href={{ url_for('isabelle') }}>Isabelle Greet Page</a>
+                </div>
+                <div class="col-md-4">
+                    <a href="https://github.com/isabelle926/flask_portfolio">Github Repo</a>
+                </div>
                 <div <a class="nav-link" href={{ url_for('isabelle') }}>Greet</a></div>
             </div>
         </div>
