@@ -7,6 +7,7 @@ Table of contents:
 - project idea 
 - parts of project 
 
+## Contributers
 
 [Scrum Board](https://github.com/isabelle926/flask_portfolio/projects/1) and [Contributers](https://github.com/isabelle926/flask_portfolio/graphs/contributors)
 
