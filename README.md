@@ -9,9 +9,10 @@ Table of contents:
 
 
 [Scrum Board](https://github.com/isabelle926/flask_portfolio/projects/1) and [Contributers](https://github.com/isabelle926/flask_portfolio/graphs/contributors)
+[Vidhi and Isabelle's Pair Share Journal](https://github.com/isabelle926/flask_portfolio/projects/1), [Kamya and Kaavya's Pair Share Journal](https://docs.google.com/document/d/1x6tj0aUuHELg618rLQFYBfFm4qp73hJDD0RH6kbs4ug/edit?usp=sharing)
+
 | Contributers | Data |
 | ----------- | ----------- |
-| Epic Coders, [Scrum Board](https://github.com/isabelle926/flask_portfolio/projects/1), [Repo contributers](https://github.com/isabelle926/flask_portfolio/graphs/contributors), [Vidhi and Isabelle's Pair Share Journal](https://github.com/isabelle926/flask_portfolio/projects/1), [Kamya and Kaavya's Pair Share Journal](https://docs.google.com/document/d/1x6tj0aUuHELg618rLQFYBfFm4qp73hJDD0RH6kbs4ug/edit?usp=sharing) |
 | Vidhi | @VidhiKulkarni, [Tasks](https://github.com/isabelle926/flask_portfolio/issues/assigned/VidhiKulkarni), [Scrum Board](https://github.com/isabelle926/flask_portfolio/projects/1?card_filter_query=assignee%3Avidhikulkarni), [Commits](https://github.com/isabelle926/flask_portfolio/commits?author=VidhiKulkarni), [Profile](https://github.com/VidhiKulkarni) |
 | Kaavya | @rkaavya , [Tasks](https://github.com/isabelle926/flask_portfolio/issues/assigned/rkaavya), [Scrum Board](https://github.com/isabelle926/flask_portfolio/projects/1?card_filter_query=assignee%3Arkaavya), [Commits](https://github.com/isabelle926/flask_portfolio/commits?author=rkaavya), [Profile](https://github.com/rkaavya) |
 | Kamya | @kamyamah, [Tasks](https://github.com/isabelle926/flask_portfolio/issues/assigned/kamyamah), [Scrum Board](https://github.com/isabelle926/flask_portfolio/projects/1?card_filter_query=assignee%3Akamyamah), [Commits]( https://github.com/isabelle926/flask_portfolio/commits?author=kamyamah), [Profile](https://github.com/kamyamah) |
