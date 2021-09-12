@@ -11,7 +11,7 @@ Table of contents:
 
 [Scrum Board](https://github.com/isabelle926/flask_portfolio/projects/1) and [Contributers](https://github.com/isabelle926/flask_portfolio/graphs/contributors)
 
-[Vidhi and Isabelle's Journal](https://github.com/isabelle926/flask_portfolio/projects/1)
+[Vidhi and Isabelle's Journal](https://docs.google.com/document/d/1bq3xKy0riiX5BAyMshXVSc9XvZM6ootzwzISeel0I_c/edit?usp=sharing)
 
 [Kamya and Kaavya's Journal](https://docs.google.com/document/d/1x6tj0aUuHELg618rLQFYBfFm4qp73hJDD0RH6kbs4ug/edit?usp=sharing)
 
