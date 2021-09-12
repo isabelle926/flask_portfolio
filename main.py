@@ -10,6 +10,10 @@ app = Flask(__name__)
 def index():
     return render_template("index.html")
 
+@app.route('/home/')
+def home():
+    return render_template("home.html")
+
 
 # connects /kangaroos path to render kangaroos.html
 @app.route('/about_us/')
@@ -94,6 +98,8 @@ def isabelle():
 @app.route('/video/')
 def video():
     return render_template("video.html")
+
+
 
 
 

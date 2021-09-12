@@ -1,7 +1,44 @@
 <!-- Extending the project layout, as this file will do minor customizations -->
 {% extends "layouts/base.html" %}
+<!- This is a replacement block for Body in base.html -->
+{% block body %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jobs For Teens</title>
+</head>
+<body>
+<div class="product" style="margin-top: 2%;">
+    <div class="row" style="padding: 10%; padding-top: 0%; padding-bottom: 5%;">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    <a style="font-family: 'Trebuchet MS'" href="https://www.canva.com/design/DAEomzY4HxE/cmAvGTtzra4ZWqweLoajSA/watch?utm_content=DAEomzY4HxE&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton" class="btn">Wire Frame</a>
+                </div>
+                <div class="col-sm">
+                    <a href="{{ jobs }}" class="btn">Jobs</a>
+                </div>
+                <div class="col-sm">
+                    <a href="{{ summer_programs }}" class="btn">Summer Programs</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</body>
+</html>
+
+{% endblock %}
+
+
+<!- This is turning off birds background from base.html -->
+{% block background %}
+{% endblock %}
 
 <!-- Setting up variables to customize "project" details to be specific to index page -->
 {% set project = "Portfolio" %}
 {% set overview = "https://nighthawkcodingsociety.com/projectsearch/details/Flask%20Portfolio%20Starter" %}
 {% set repo = "https://github.com/isabelle_926/flask_portfolio/" %}
+
