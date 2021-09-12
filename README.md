@@ -29,12 +29,12 @@ Table of contents:
 | Add Section for Video | [Evidence](https://github.com/isabelle926/flask_portfolio/issues/21) | Vidhi, Kamya, and Isabelle |
 | Individual Coding | [Evidence](https://github.com/isabelle926/flask_portfolio/issues/16) | All |
 | Individual Research | [Evidence](https://github.com/isabelle926/flask_portfolio/issues/12) | All |
-| Embeds to Brainwrite, Wireframe, etc. | [Evidence](https://github.com/isabelle926/flask_portfolio/issues/14) | Vidhi and Isabelle |
+| Embeds to Brainwrite, Wireframe, etc. | [Evidence](https://github.com/isabelle926/flask_portfolio/issues/14) | All |
 | Timebox ReadME | [Evidence](https://github.com/isabelle926/flask_portfolio/issues/23) | Vidhi |
 | Clean up ReadME/Scrum Board | [Evidence](https://github.com/isabelle926/flask_portfolio/issues/17) | Vidhi |
 | Refactor Code | [Evidence](https://github.com/isabelle926/flask_portfolio/issues/20) | Vidhi |
 | Experiment with CSS | [Evidence](https://github.com/isabelle926/flask_portfolio/issues/13) | Kaavya and Kamya |
-| Bootstrap Grid | [Evidence](https://github.com/isabelle926/flask_portfolio/issues/25) | Kamya |
+| Bootstrap Grid | [Evidence](https://github.com/isabelle926/flask_portfolio/issues/25) | Kamya and Kaavya |
 | Review Sprint Process| [Evidence](https://github.com/isabelle926/flask_portfolio/issues/20) | Vidhi |
 
 
