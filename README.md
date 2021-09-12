@@ -22,6 +22,23 @@ Table of contents:
 | Kamya | [@kamyamah](https://github.com/kamyamah) | [Tasks](https://github.com/isabelle926/flask_portfolio/issues/assigned/kamyamah) | [Scrum Board](https://github.com/isabelle926/flask_portfolio/projects/1?card_filter_query=assignee%3Akamyamah) | [Commits]( https://github.com/isabelle926/flask_portfolio/commits?author=kamyamah)|
 | Isabelle| [@isabelle926](https://github.com/isabelle926) | [Tasks](https://github.com/isabelle926/flask_portfolio/issues/assigned/isabelle926) | [Scrum Board](https://github.com/isabelle926/flask_portfolio/projects/1?card_filter_query=assignee%3Aisabelle926) | [Commits](https://github.com/isabelle926/flask_portfolio/commits?author=isabelle926) |
 
+## September 10
+| Task | Evidence | Assignees |
+| ----------- | ----------- | ----------- |
+| Create Location for Mini-Labs | [Evidence](https://github.com/isabelle926/flask_portfolio/issues/15) | Vidhi and Isabelle |
+| Add Section for Video | [Evidence](https://github.com/isabelle926/flask_portfolio/issues/21) | Vidhi, Kamya, and Isabelle |
+| Individual Coding | [Evidence](https://github.com/isabelle926/flask_portfolio/issues/16) | All |
+| Individual Research | [Evidence](https://github.com/isabelle926/flask_portfolio/issues/12) | All |
+| Embeds to Brainwrite, Wireframe, etc. | [Evidence](https://github.com/isabelle926/flask_portfolio/issues/14) | Vidhi and Isabelle |
+| Timebox ReadME | [Evidence](https://github.com/isabelle926/flask_portfolio/issues/23) | Vidhi |
+| Clean up ReadME/Scrum Board | [Evidence](https://github.com/isabelle926/flask_portfolio/issues/17) | Vidhi |
+| Refactor Code | [Evidence](https://github.com/isabelle926/flask_portfolio/issues/20) | Vidhi |
+| Experiment with CSS | [Evidence](https://github.com/isabelle926/flask_portfolio/issues/13) | Kaavya and Kamya |
+| Bootstrap Grid | [Evidence](https://github.com/isabelle926/flask_portfolio/issues/25) | Kamya |
+| Review Sprint Process| [Evidence](https://github.com/isabelle926/flask_portfolio/issues/20) | Vidhi |
+
+
+## September 3
 ## PBL Individual Grade (4/4)
 
 Vidhi: [TPT 1 Notes](https://docs.google.com/document/d/1JuOseRKyqB58OoGf2E2ej_ENLShwoKL0GvRnsWW68jc/edit?usp=sharing)
