@@ -20,6 +20,10 @@ def about_us():
 def jobs():
     return render_template("jobs.html")
 
+@app.route('/summer_programs/')
+def summer_programs():
+    return render_template("summer_programs.html")
+
 
 @app.route('/questionnaires/')
 def questionnaires():

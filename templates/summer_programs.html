@@ -5,6 +5,64 @@
     <title>Title</title>
 </head>
 <body>
+{% include "layouts/base.html" %}
+
+<style>
+.button {
+        border-radius: 4px;
+        background-color: #f4511e;
+        border: none;
+        color: #4CAF50;
+        text-align: center;
+        font-size: 28px;
+        padding: 20px;
+        width: 200px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;
+}
+
+.button span {
+cursor: pointer;
+display: inline-block;
+position: relative;
+transition: 0.5s;
+}
+
+.button span:after {
+content: '\00bb';
+position: absolute;
+opacity: 0;
+top: 0;
+right: -20px;
+transition: 0.5s;
+}
+
+.button:hover span {
+padding-right: 50px;
+}
+
+.button:hover span:after {
+opacity: 1;
+right: 0;
+}
+</style>
+
+<a href="https://www.wikihow.com/Get-a-Job" class="button"><span>Click me to learn more about summer programs</span></a>
+
+<p id="demo"></p>
+
+<script>
+    function learnSummerProgram() {
+        document.getElementById("demo").innerHTML = "Hello World";
+    }
+
+    window.onclick = myFunction;
+
+        function myFunction() {
+        document.getElementsByTagName("BODY")[0].style.backgroundColor = "yellow";
+        }
+</script>
 
 </body>
 </html>
