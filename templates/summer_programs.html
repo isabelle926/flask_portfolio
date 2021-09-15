@@ -5,6 +5,22 @@
     <title>Title</title>
 </head>
 <body>
+{% include "layouts/base.html" %}
+<button onclick="learnSummerProgram()">Click me to learn more about summer programs</button>
+
+<p id="demo"></p>
+
+<script>
+    function learnSummerProgram() {
+        document.getElementById("demo").innerHTML = "Hello World";
+    }
+
+    window.onclick = myFunction;
+
+        function myFunction() {
+        document.getElementsByTagName("BODY")[0].style.backgroundColor = "yellow";
+        }
+</script>
 
 </body>
 </html>
