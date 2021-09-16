@@ -24,6 +24,9 @@ def jobs():
 def summer_programs():
     return render_template("summer_programs.html")
 
+@app.route('/rgb/')
+def rgb():
+    return render_template("rgb.html")
 
 @app.route('/questionnaires/')
 def questionnaires():
