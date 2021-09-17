@@ -25,6 +25,7 @@ This HTML is setup as a fragment allowing it to be "included" by other HTML file
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item" href={{ url_for('binary') }}>Binary</a>
                     <a class="dropdown-item" href={{ url_for('mini_labs') }}>Boostrap Grid</a>
+                    <a class="dropdown-item" href={{ url_for('rgb') }}>RGB Values</a>
 
                 </div>
             </li>
@@ -36,9 +37,6 @@ This HTML is setup as a fragment allowing it to be "included" by other HTML file
             </li>
             <li class="nav-item active">
                 <a class="nav-link" href={{ url_for('jobs') }}>Jobs<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item active">
-                <a class="nav-link" href={{ url_for('rgb') }}>RGB Values<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item active">
                 <a class="nav-link" href={{ url_for('questionnaires') }}>Questionnaires<span class="sr-only">(current)</span></a>
