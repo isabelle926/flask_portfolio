@@ -6,29 +6,56 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Jobs For Teens</title>
+    <h1>Jobs For Teens</h1>
+    <marquee behavior="alternate" direction="up" width="80%">
+        <marquee direction="right" behavior="alternate">Welcome to our website!</marquee>
+    </marquee>
 </head>
-<body>
-<div class="product" style="margin-top: 2%;">
-    <div class="row" style="padding: 10%; padding-top: 0%; padding-bottom: 5%;">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm">
-                    <a style="font-family: 'Trebuchet MS'" href="https://www.canva.com/design/DAEomzY4HxE/cmAvGTtzra4ZWqweLoajSA/watch?utm_content=DAEomzY4HxE&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton" class="btn">Wire Frame</a>
-                </div>
-                <div class="col-sm">
-                    <a href={{ url_for('jobs') }} class="btn">Jobs</a>
-                </div>
-                <div class="col-sm">
-                    <a href={{ url_for('summer_programs') }} class="btn">Summer Programs</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-</body>
+<style>
+    h1 {text-align: center;}
+</style>
 </html>
+    <style>
+        .button {
+            border-radius: 4px;
+            background-color: #f4511e;
+            border: none;
+            color: #FFFFFF;
+            text-align: center;
+            font-size: 28px;
+            padding: 20px;
+            width: 200px;
+            transition: all 0.5s;
+            cursor: pointer;
+            margin: 5px;
+        }
 
+        .button span {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            transition: 0.5s;
+        }
+
+        .button span:after {
+            content: '\00bb';
+            position: absolute;
+            opacity: 0;
+            top: 0;
+            right: -20px;
+            transition: 0.5s;
+        }
+
+        .button:hover span {
+            padding-right: 25px;
+        }
+
+        .button:hover span:after {
+            opacity: 1;
+            right: 0;
+        }
+    </style>
+        }
 {% endblock %}
 
 
