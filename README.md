@@ -22,6 +22,10 @@ Table of contents:
 | Kamya | [@kamyamah](https://github.com/kamyamah) | [Tasks](https://github.com/isabelle926/flask_portfolio/issues/assigned/kamyamah) | [Scrum Board](https://github.com/isabelle926/flask_portfolio/projects/1?card_filter_query=assignee%3Akamyamah) | [Commits]( https://github.com/isabelle926/flask_portfolio/commits?author=kamyamah)|
 | Isabelle| [@isabelle926](https://github.com/isabelle926) | [Tasks](https://github.com/isabelle926/flask_portfolio/issues/assigned/isabelle926) | [Scrum Board](https://github.com/isabelle926/flask_portfolio/projects/1?card_filter_query=assignee%3Aisabelle926) | [Commits](https://github.com/isabelle926/flask_portfolio/commits?author=isabelle926) |
 
+## September 17
+| Task | Evidence | Assignees |
+| ----------- | ----------- | ----------- |
+
 ## September 10
 | Task | Evidence | Assignees |
 | ----------- | ----------- | ----------- |
