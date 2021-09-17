@@ -2,19 +2,23 @@
 {% extends "layouts/base.html" %}
 <!- This is a replacement block for Body in base.html -->
 {% block body %}
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <h1>Jobs For Teens</h1>
-    <marquee behavior="alternate" direction="up" width="80%">
-        <marquee direction="right" behavior="alternate">Welcome to our website!</marquee>
-    </marquee>
-</head>
-<style>
-    h1 {text-align: center;}
-</style>
-</html>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <h1>Jobs For Teens</h1>
+        <div class="w3-container">
+            <h1 class="w3-center w3-animate-right">This is our site!</h1>
+        </div>
+        <marquee behavior="alternate" direction="up" width="80%">
+            <marquee direction="right" behavior="alternate">Welcome to our website!</marquee>
+        </marquee>
+    </head>
+    <style>
+        h1 {text-align: center;}
+    </style>
+    </html>
     <style>
         .button {
             border-radius: 4px;
@@ -55,7 +59,7 @@
             right: 0;
         }
     </style>
-        }
+    }
 {% endblock %}
 
 
@@ -67,4 +71,3 @@
 {% set project = "Portfolio" %}
 {% set overview = "https://nighthawkcodingsociety.com/projectsearch/details/Flask%20Portfolio%20Starter" %}
 {% set repo = "https://github.com/isabelle_926/flask_portfolio/" %}
-
