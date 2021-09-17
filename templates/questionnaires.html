@@ -1,11 +1,25 @@
 {% extends "layouts/base.html" %}
+<!- This is a replacement block for Body in base.html -->
+{% block body %}
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+<p>Questionairre</p>
 </head>
 <body>
 
+<div class="product" style="margin-top: 2%;">
+    <div class="row" style="padding: 10%; padding-top: 0%; padding-bottom: 5%;">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdwd3Jo9URCgDNGTKdAzNAN2bys4KnuuYUfdskTN2KNqrcBBw/viewform?usp=sf_link" class="btn">Questionnaire</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 </body>
 </html>
+
+{% endblock %}
