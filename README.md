@@ -24,7 +24,9 @@ Table of contents:
 
 ## September 17
 We included many requirements in our Pages
+
 Individual Scores (2/2 -- Check Commits)
+
 Team Technicals Score (2/2 for each person):
 
 | Task | Evidence | Assignees |
