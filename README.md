@@ -23,8 +23,19 @@ Table of contents:
 | Isabelle| [@isabelle926](https://github.com/isabelle926) | [Tasks](https://github.com/isabelle926/flask_portfolio/issues/assigned/isabelle926) | [Scrum Board](https://github.com/isabelle926/flask_portfolio/projects/1?card_filter_query=assignee%3Aisabelle926) | [Commits](https://github.com/isabelle926/flask_portfolio/commits?author=isabelle926) |
 
 ## September 17
+We included many requirements in our Pages
+Individual Scores (2/2 -- Check Commits)
+Team Technicals Score (2/2 for each person):
+
 | Task | Evidence | Assignees |
 | ----------- | ----------- | ----------- |
+| Binary Page | [Evidence](https://github.com/isabelle926/flask_portfolio/issues/37) | Isabelle |
+| Sign-up Page | [Evidence](https://github.com/isabelle926/flask_portfolio/issues/39) | Vidhi and Isabelle |
+| About Us Page | [Evidence](https://github.com/isabelle926/flask_portfolio/issues/35) | Kaavya |
+| Questionnaires | [Evidence](https://github.com/isabelle926/flask_portfolio/issues/40) | Kaavya |
+| Bootstrap Grid | [Evidence](https://github.com/isabelle926/flask_portfolio/issues/35) | Vidhi and Kamya |
+| Home Page | [Evidence](https://github.com/isabelle926/flask_portfolio/issues/35) | Vidhi |
+| Button Animations | [Evidence](https://github.com/isabelle926/flask_portfolio/issues/29) | Vidhi |
 
 ## September 10
 | Task | Evidence | Assignees |
