@@ -18,17 +18,22 @@ This HTML is setup as a fragment allowing it to be "included" by other HTML file
             <li class="nav-item active">
                 <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
             </li>
-
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarLabs" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Greet Pages
+                    Mini-labs
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href={{ url_for('kamya') }}>Kamya</a>
-                    <a class="dropdown-item" href= {{ url_for('kaavya') }}>Kaavya</a>
-                    <a class="dropdown-item" href={{ url_for('isabelle') }}>Isabelle</a>
-                    <a class="dropdown-item" href={{ url_for('vidhi') }}>Vidhi</a>
+                    <a class="dropdown-item" href={{ url_for('binary') }}>Binary</a>
+                    <a class="dropdown-item" href={{ url_for('mini_labs') }}>Boostrap Grid</a>
+                    <a class="dropdown-item" href={{ url_for('rgb') }}>RGB Values</a>
+
                 </div>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href={{ url_for('video') }}>Journal 0<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href={{ url_for('summer_programs') }}>Summer Programs<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item active">
                 <a class="nav-link" href={{ url_for('about_us') }}>About Us<span class="sr-only">(current)</span></a>
@@ -37,23 +42,13 @@ This HTML is setup as a fragment allowing it to be "included" by other HTML file
                 <a class="nav-link" href={{ url_for('jobs') }}>Jobs<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href={{ url_for('rgb') }}>RGB Values<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item active">
                 <a class="nav-link" href={{ url_for('questionnaires') }}>Questionnaires<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item active">
                 <a class="nav-link" href={{ url_for('sign_up') }}>Sign Up<span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item active">
-                <a class="nav-link" href={{ url_for('mini_labs') }}>Mini Labs<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item active">
-                <a class="nav-link" href={{ url_for('video') }}>Journal 0<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item active">
-                <a class="nav-link" href={{ url_for('Videos') }}>Videos<span class="sr-only">(current)</span></a>
-            </li>
+
+
 
 
 
