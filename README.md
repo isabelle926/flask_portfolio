@@ -22,6 +22,19 @@ Table of contents:
 | Kamya | [@kamyamah](https://github.com/kamyamah) | [Tasks](https://github.com/isabelle926/flask_portfolio/issues/assigned/kamyamah) | [Scrum Board](https://github.com/isabelle926/flask_portfolio/projects/1?card_filter_query=assignee%3Akamyamah) | [Commits]( https://github.com/isabelle926/flask_portfolio/commits?author=kamyamah)|
 | Isabelle| [@isabelle926](https://github.com/isabelle926) | [Tasks](https://github.com/isabelle926/flask_portfolio/issues/assigned/isabelle926) | [Scrum Board](https://github.com/isabelle926/flask_portfolio/projects/1?card_filter_query=assignee%3Aisabelle926) | [Commits](https://github.com/isabelle926/flask_portfolio/commits?author=isabelle926) |
 
+
+## September 25
+We included many requirements in our Pages
+
+Individual Scores (2/2 -- Check Commits)
+
+Team Technicals Score (2/2 for each person):
+
+| Task | Evidence | Assignees |
+| ----------- | ----------- | ----------- |
+| TPT Work | [Evidence](https://github.com/isabelle926/flask_portfolio/issues/37) | All |
+| Grayscale Function | [Evidence](https://github.com/isabelle926/flask_portfolio/issues/39) | All |
+
 ## September 17
 We included many requirements in our Pages
 
