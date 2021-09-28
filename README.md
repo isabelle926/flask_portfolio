@@ -33,7 +33,7 @@ Team Technicals Score (2/2 for each person):
 | Task | Evidence | Assignees |
 | ----------- | ----------- | ----------- |
 | TPT Work | [Evidence](https://github.com/isabelle926/flask_portfolio/issues/37) | All |
-| Grayscale Function | [Evidence](https://github.com/isabelle926/flask_portfolio/issues/39) | All |
+| Grayscale Function | [Evidence](https://github.com/isabelle926/flask_portfolio/commit/ac298acb0ebf8d989879a53ad63acea4e7c64e8c) | All |
 
 ## September 17
 We included many requirements in our Pages
