@@ -21,9 +21,16 @@ Table of contents:
 | Kaavya | [@rkaavya](https://github.com/rkaavya) | [Tasks](https://github.com/isabelle926/flask_portfolio/issues/assigned/rkaavya) | [Scrum Board](https://github.com/isabelle926/flask_portfolio/projects/1?card_filter_query=assignee%3Arkaavya) | [Commits](https://github.com/isabelle926/flask_portfolio/commits?author=rkaavya) |
 | Kamya | [@kamyamah](https://github.com/kamyamah) | [Tasks](https://github.com/isabelle926/flask_portfolio/issues/assigned/kamyamah) | [Scrum Board](https://github.com/isabelle926/flask_portfolio/projects/1?card_filter_query=assignee%3Akamyamah) | [Commits]( https://github.com/isabelle926/flask_portfolio/commits?author=kamyamah)|
 | Isabelle| [@isabelle926](https://github.com/isabelle926) | [Tasks](https://github.com/isabelle926/flask_portfolio/issues/assigned/isabelle926) | [Scrum Board](https://github.com/isabelle926/flask_portfolio/projects/1?card_filter_query=assignee%3Aisabelle926) | [Commits](https://github.com/isabelle926/flask_portfolio/commits?author=isabelle926) |
+## October 1 (Week 6)
+| Members | Tasks
+| ----------- | ----------- | ----------- |
+| Vidhi | RGB new development/Home Page |
+| Kamya | RGB backend/Quiz on Website |
+| Isabelle | RGB frontend/Signup Page | 
+| Kaavya | RGB backend/About Us page | 
+| All | Documentation/Journal Entries/ Notes |
 
-
-## September 25
+## September 25 (Week 5) -- TPT Score: 3/3
 We included many requirements in our Pages
 
 Individual Scores (2/2 -- Check Commits)
@@ -35,7 +42,7 @@ Team Technicals Score (2/2 for each person):
 | TPT Work | [Evidence](https://github.com/isabelle926/flask_portfolio/issues/37) | All |
 | Grayscale Function | [Evidence](https://github.com/isabelle926/flask_portfolio/commit/ac298acb0ebf8d989879a53ad63acea4e7c64e8c) | All |
 
-## September 17
+## September 17 (Week 4)
 We included many requirements in our Pages
 
 Individual Scores (2/2 -- Check Commits)
@@ -52,7 +59,7 @@ Team Technicals Score (2/2 for each person):
 | Home Page | [Evidence](https://github.com/isabelle926/flask_portfolio/issues/35) | Vidhi |
 | Button Animations | [Evidence](https://github.com/isabelle926/flask_portfolio/issues/29) | Vidhi |
 
-## September 10
+## September 10 (Week 3)
 | Task | Evidence | Assignees |
 | ----------- | ----------- | ----------- |
 | Create Location for Mini-Labs | [Evidence](https://github.com/isabelle926/flask_portfolio/issues/15) | Vidhi and Isabelle |
@@ -68,7 +75,7 @@ Team Technicals Score (2/2 for each person):
 | Review Sprint Process| [Evidence](https://github.com/isabelle926/flask_portfolio/issues/20) | Vidhi |
 
 
-## September 3
+## September 3 (Week 2)
 ## PBL Individual Grade (4/4)
 
 Vidhi: [TPT 1 Notes](https://docs.google.com/document/d/1JuOseRKyqB58OoGf2E2ej_ENLShwoKL0GvRnsWW68jc/edit?usp=sharing)
