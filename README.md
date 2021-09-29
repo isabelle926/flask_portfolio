@@ -23,7 +23,7 @@ Table of contents:
 | Isabelle| [@isabelle926](https://github.com/isabelle926) | [Tasks](https://github.com/isabelle926/flask_portfolio/issues/assigned/isabelle926) | [Scrum Board](https://github.com/isabelle926/flask_portfolio/projects/1?card_filter_query=assignee%3Aisabelle926) | [Commits](https://github.com/isabelle926/flask_portfolio/commits?author=isabelle926) |
 ## October 1 (Week 6)
 | Members | Tasks
-| ----------- | ----------- | ----------- |
+| ----------- | ----------- |
 | Vidhi | RGB new development/Home Page |
 | Kamya | RGB backend/Quiz on Website |
 | Isabelle | RGB frontend/Signup Page | 
