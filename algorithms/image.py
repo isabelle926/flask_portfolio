@@ -2,7 +2,18 @@ from PIL import Image, ImageDraw
 import numpy
 import base64
 from io import BytesIO
+from PIL import Image, ImageFilter
+from PIL.ImageFilter import (
+    BLUR, CONTOUR, DETAIL, EDGE_ENHANCE, EDGE_ENHANCE_MORE,
+    EMBOSS, FIND_EDGES, SMOOTH, SMOOTH_MORE, SHARPEN
+)
 
+#Create image object
+img = Image.open('static/assets/images/lassen-volcano-256.jpg')
+#Applying the blur filter
+img1 = img.filter(BLUR)
+#img1.save('static/assets/images/lassen-volcano-256-blur.jpg')
+img1.show()
 
 # image (PNG, JPG) to base64 conversion (string), learn about base64 on wikipedia https://en.wikipedia.org/wiki/Base64
 def image_base64(img, img_type):
@@ -30,8 +41,7 @@ def image_data(path="static/assets/images/", img_list=None):  # path of static i
         ]
     # gather analysis data and meta data for each image, adding attributes to each row in table
     for img_dict in img_list:
-        img_dict['path'] = '/' + path  # path for HTML access (frontend)
-        file = path + img_dict['file']  # file with path for local access (backend)
+        file = path / img_dict['file']  # file with path for local access (backend)
         # Python Image Library operations
         img_reference = Image.open(file)  # PIL
         img_data = img_reference.getdata()  # Reference https://www.geeksforgeeks.org/python-pil-image-getdata/
@@ -74,8 +84,8 @@ def image_data(path="static/assets/images/", img_list=None):  # path of static i
             # binary conversions
             bin_value = bin(pixel[0])[2:].zfill(8) + " " + bin(pixel[1])[2:].zfill(8) + " " + bin(pixel[2])[2:].zfill(8)
             img_dict['binary_array_GRAY'].append(bin_value)
+        img_dict['blur_data'] = []
     return img_list  # list is returned with all the attributes for each image dictionary
-
 
 # run this as standalone tester to see data printed in terminal
 if __name__ == "__main__":
