@@ -7,14 +7,6 @@ from PIL.ImageFilter import (
     BLUR, CONTOUR, DETAIL, EDGE_ENHANCE, EDGE_ENHANCE_MORE,
     EMBOSS, FIND_EDGES, SMOOTH, SMOOTH_MORE, SHARPEN
 )
-
-#Create image object
-img = Image.open('static/assets/images/lassen-volcano-256.jpg')
-#Applying the blur filter
-img1 = img.filter(BLUR)
-#img1.save('static/assets/images/lassen-volcano-256-blur.jpg')
-img1.show()
-
 # image (PNG, JPG) to base64 conversion (string), learn about base64 on wikipedia https://en.wikipedia.org/wiki/Base64
 def image_base64(img, img_type):
     with BytesIO() as buffer:

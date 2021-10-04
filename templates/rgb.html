@@ -5,6 +5,7 @@
     <script>
         // Hack: add java script function to toggle image from original to gray and back (toggle)
         var imageType = 0; // 0 is color, 1 is gray
+        var imageBType = 0; // 0 is color, 1 is blurred
 
         function toggle() {
             if (imageType == 0) {
@@ -19,14 +20,14 @@
         }
 
         function toggleBlur() {
-            if (imageType == 0) {
+            if (imageBType == 0) {
                 $('#colored').hide()
                 $('#blurting').show()
-                imageType = 1;
+                imageBType = 1;
             } else {
                 $('#blurting').hide()
                 $('#colored').show()
-                imageType = 0;
+                imageBType = 0;
             }
         }
         //  help: https://www.geeksforgeeks.org/how-to-change-the-src-attribute-of-an-img-element-in-javascript-jquery/
@@ -118,6 +119,11 @@
                         <td>
                             <img class="img-responsive py-3" id=img{{loop.index}} alt="" width="256" height="Auto" src="{{image.base64_GRAY}}" >
                             <p hidden id="img_gray{{loop.index}}">{{image.base64_GRAY}}</p>
+
+                            <div id="imgText"  style=" top: 400px; left: 420px; position: absolute"  >
+                                <b>Epic Coders!!</b>
+                           </div>
+
                         </td>
                         <td>
                             <div class="overflow-auto" style="height: 256px">
@@ -215,6 +221,8 @@
     <script>
         $( document ).ready(function() {
             $('#grayscale').hide()
+            $('#blurting').hide()
+            $('#imgText').hide()
         });
     </script>
 {% endblock %}
