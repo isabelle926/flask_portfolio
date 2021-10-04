@@ -24,7 +24,7 @@ Table of contents:
 ## October 1 (Week 6)
 | Members | Tasks
 | ----------- | ----------- |
-| Vidhi | RGB new development/Home Page |
+| Vidhi | RGB new development/RGB Backend |
 | Kamya | RGB backend/Quiz on Website |
 | Isabelle | RGB frontend/Signup Page | 
 | Kaavya | RGB backend/About Us page | 

@@ -34,6 +34,7 @@
 
 </script>
 
+
     <img src="/static/assets/kamya.jpg" id="myImg2" width="500" height="500">
     <input type="button" onclick="changeImg2()" value="Click Here" />
     <script type="text/javascript">
@@ -48,6 +49,21 @@
         }
 
     </script>
+
+    <script type="text/javascript">
+        function changeImage(a) {
+            document.getElementById("img").src=a.src;
+        }
+    </script>
+    <div id="main_img">
+        <img id="img" src="/static/assets/kaavya.jpg">
+    </div>
+    <div id="thumb_img">
+        <img src='/static/assets/kaavya.jpg'  onclick='changeImage("/static/assets/vidhi.jpg");'>
+        <img src='/static/assets/vidhi.jpg'  onclick='changeImage("/static/assets/isabelle.jpg");'>
+        <img src='/static/assets/isabelle.jpg'  onclick='changeImage("/static/assets/kamya.jpg");'>
+        <img src='/static/assets/kamya.jpg'  onclick='changeImage("/static/assets/kaavya.jpg");'>
+    </div>
 
 </body>
 </html>
