@@ -25,8 +25,8 @@ Table of contents:
 | Members | Tasks
 | ----------- | ----------- |
 | Vidhi | [RGB new development](https://github.com/isabelle926/flask_portfolio/commit/0378c24ab133bc8eeb61ae57837cb7bba02656d8)/[RGB Backend](https://github.com/isabelle926/flask_portfolio/commit/73c23c2ad438b40e278c73e6b3e5ce557bdbab4e)|
-| Kamya | [Quiz on Website](https://github.com/isabelle926/flask_portfolio/commit/967d9ff54577e2e77a1f7109c5f77d04fb73905b) |
 | Isabelle | [RGB frontend](https://github.com/isabelle926/flask_portfolio/commit/ac298acb0ebf8d989879a53ad63acea4e7c64e8c)/[Documentation](https://docs.google.com/document/d/1zfJ4He624alIB6ZFaouzIngSu0mlE-FjGOpr_QVgzdc/edit?usp=sharing) | 
+| Kamya | [Quiz on Website](https://github.com/isabelle926/flask_portfolio/commit/967d9ff54577e2e77a1f7109c5f77d04fb73905b) |
 | Kaavya | [About Us page](https://github.com/isabelle926/flask_portfolio/commit/61f5a572c3aa5c10452f6b887b7e5e7c56754aee) | 
 | All | [Notes on Base64](https://docs.google.com/document/d/13KmiIthhGW66wBM-cN6T-7riI6N_okMyAimnIiEKm0M/edit?usp=sharing)/[Big O Notation](https://docs.google.com/document/d/1pgJUOUR0PWdM5ySCeXO7BESxMfizS_4d2Kz7uHnwpws/edit?usp=sharing)|
 
