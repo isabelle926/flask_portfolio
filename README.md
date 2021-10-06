@@ -27,9 +27,9 @@ Table of contents:
 | ----------- | ----------- |
 | Vidhi | [Extend/Switch ASCII  to Unicode/Color Codes]|
 | Isabelle | [Multiply and Divide by 2 (Shift)/Color Codes]| 
-| Kamya | [Logic Gates/Signed Addition] |
-| Kaavya | [Logic Gates/Unsigned Addition] | 
-| All | [TPT Notes])|
+| Kamya | [Logic Gates](https://github.com/isabelle926/flask_portfolio/issues/67)/[Signed Addition](https://github.com/isabelle926/flask_portfolio/issues/68) |
+| Kaavya | [Logic Gates](https://github.com/isabelle926/flask_portfolio/issues/67)/[Unsigned Addition](https://github.com/isabelle926/flask_portfolio/issues/71) | 
+| All | TPT Notes|
 
 
 ## October 1 (Week 6)
