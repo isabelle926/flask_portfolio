@@ -25,8 +25,8 @@ Table of contents:
 ## October 4 (Week 7)
 | Members | Tasks
 | ----------- | ----------- |
-| Vidhi | [Extend/Switch ASCII  to Unicode/Color Codes]|
-| Isabelle | [Multiply and Divide by 2 (Shift)/Color Codes]| 
+| Vidhi | [Extend/Switch ASCII  to Unicode](https://github.com/isabelle926/flask_portfolio/issues/64)/[Color Codes](https://github.com/isabelle926/flask_portfolio/issues/65)|
+| Isabelle | [Multiply and Divide by 2 (Shift)](https://github.com/isabelle926/flask_portfolio/issues/63)/[Color Codes](https://github.com/isabelle926/flask_portfolio/issues/65)| 
 | Kamya | [Logic Gates](https://github.com/isabelle926/flask_portfolio/issues/67)/[Signed Addition](https://github.com/isabelle926/flask_portfolio/issues/68) |
 | Kaavya | [Logic Gates](https://github.com/isabelle926/flask_portfolio/issues/67)/[Unsigned Addition](https://github.com/isabelle926/flask_portfolio/issues/71) | 
 | All | TPT Notes|
