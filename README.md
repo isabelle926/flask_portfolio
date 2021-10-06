@@ -21,6 +21,17 @@ Table of contents:
 | Kaavya | [@rkaavya](https://github.com/rkaavya) | [Tasks](https://github.com/isabelle926/flask_portfolio/issues/assigned/rkaavya) | [Scrum Board](https://github.com/isabelle926/flask_portfolio/projects/1?card_filter_query=assignee%3Arkaavya) | [Commits](https://github.com/isabelle926/flask_portfolio/commits?author=rkaavya) |
 | Kamya | [@kamyamah](https://github.com/kamyamah) | [Tasks](https://github.com/isabelle926/flask_portfolio/issues/assigned/kamyamah) | [Scrum Board](https://github.com/isabelle926/flask_portfolio/projects/1?card_filter_query=assignee%3Akamyamah) | [Commits]( https://github.com/isabelle926/flask_portfolio/commits?author=kamyamah)|
 | Isabelle| [@isabelle926](https://github.com/isabelle926) | [Tasks](https://github.com/isabelle926/flask_portfolio/issues/assigned/isabelle926) | [Scrum Board](https://github.com/isabelle926/flask_portfolio/projects/1?card_filter_query=assignee%3Aisabelle926) | [Commits](https://github.com/isabelle926/flask_portfolio/commits?author=isabelle926) |
+
+## October 4 (Week 7)
+| Members | Tasks
+| ----------- | ----------- |
+| Vidhi | [Extend/Switch ASCII  to Unicode](https://github.com/isabelle926/flask_portfolio/issues/64)/[Color Codes](https://github.com/isabelle926/flask_portfolio/issues/65)|
+| Isabelle | [Multiply and Divide by 2 (Shift)](https://github.com/isabelle926/flask_portfolio/issues/63)/[Color Codes](https://github.com/isabelle926/flask_portfolio/issues/65)| 
+| Kamya | [Logic Gates](https://github.com/isabelle926/flask_portfolio/issues/67)/[Signed Addition](https://github.com/isabelle926/flask_portfolio/issues/68) |
+| Kaavya | [Logic Gates](https://github.com/isabelle926/flask_portfolio/issues/67)/[Unsigned Addition](https://github.com/isabelle926/flask_portfolio/issues/71) | 
+| All | TPT Notes|
+
+
 ## October 1 (Week 6)
 | Members | Tasks
 | ----------- | ----------- |
