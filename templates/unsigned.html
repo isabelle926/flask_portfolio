@@ -119,15 +119,15 @@
                 }
             }
             {
-                function adding(n){
+                function unsigned(n){
                 }
                 let binary1 = getBits('digit');
-                let decimal1 = parseInt(binary1,2);
+                let decimal1 = parseInt(binary2,2);
                 let binary2 = getBits('digit2');
-                let decimal2 = parseInt(binary2,2);
+                let decimal2 = parseInt(binary1,2);
                 if (n === 1) {
                     decimal3 = decimal1 + decimal2;
-                    if (decimal3 > 255){
+                    if (decimal3 > 65535){
                         alert("Program will overflow to 0 because # is too big")
                         decimal3 = 0
                     }
