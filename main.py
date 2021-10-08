@@ -107,7 +107,9 @@ def video():
 def unsigned():
     return render_template("unsigned.html")
 
-
+@app.route('/logicgates/')
+def logicgates():
+    return render_template("logicgates.html")
 
 
 
