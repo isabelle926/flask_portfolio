@@ -111,6 +111,9 @@ def unsigned():
 def logicgates():
     return render_template("logicgates.html")
 
+@app.route('/signedaddition/')
+def signedaddition():
+    return render_template("signedaddition.html")
 
 
 
