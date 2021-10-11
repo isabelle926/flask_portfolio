@@ -45,11 +45,13 @@
          DOM assignment by converting decimal https://www.w3schools.com/jsref/jsref_fromcharcode.asp
          below ASCII for more ideas of where to make changes
          */
-        let text= String.fromCharCode(parseInt(parseInt(binary,2). toString(64)))
-        document.getElementById('ascii').innerHTML= text;
-        let text = String.fromCharCode(parseInt(parseInt(binary, 2).toString(10)));
-        document.getElementById('ascii').innerHTML = text;    // set ascii in the table
-
+        if (decimal<32) {
+            document.getElementById('ascii').innerHTML = 'NPC';
+        } else if (decimal == 32){
+            document.getElementById('ascii').innerHTML = 'space';
+        } else {
+            document.getElementById('ascii').innerHTML = String.fromCharCode(parseInt(decimal));
+        }
     }
 
     // algorithm to convert decimal to base using division and remainder
@@ -117,9 +119,46 @@
             }
         }
     }
-    function shift(n) {
-
+    function parseSignedByte(bitsString){
+        let signedValue = 0;
+        if (bitsString[0] === "0"){
+            signedValue = parseInt(bitsString, 2)
+        }
+        else{
+            let flipped = ""
+            for(let i = 0; i < bitsString.length; i++){
+                if (bitsString[i] === '1'){
+                    flipped += "0"
+                }
+                else {
+                    flipped += "1"
+                }
+            }
+            signedValue = parseInt(flipped, 2);
+            signedValue += 1;
+            signedValue *= -1;
+        }
+        return signedValue;
     }
+    function addBits(){
+        let binary1 = getBits('digit');
+        let decimal1 = parseSignedByte(binary1);
+        let binary2 = getBits('digit2');
+        let decimal2 = parseSignedByte(binary2);
+        decimal3 = decimal1 + decimal2;
+        decimal3 = decimal3 > 255 ? 0 : decimal1 + decimal2;
+        binary = decimal_2_base(decimal3, 2);
+        for (let i = 0; i < binary.length; i++) {
+            let digit = binary.substr(i, 1);
+            document.getElementById('digit3' + i).value = digit;
+            if (digit === "1") {
+                document.getElementById('bulb' + i).src = "{{ imgBulbOn }}";
+            } else {
+                document.getElementById('bulb' + i).src = "{{ imgBulbOff }}";
+            }
+        }
+    }
+
 </script>
 
 <h1 style="font-family: 'Papyrus'" class=text-center">Binary Math with Conversions</h1>
