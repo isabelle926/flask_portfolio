@@ -47,13 +47,9 @@
          */
         let text= String.fromCharCode(parseInt(parseInt(binary,2). toString(64)))
         document.getElementById('ascii').innerHTML= text;
-        if (decimal<32) {
-            document.getElementById('ascii').innerHTML = 'NPC';
-        } else if (decimal == 32){
-            document.getElementById('ascii').innerHTML = 'space';
-        } else {
-            document.getElementById('ascii').innerHTML = String.fromCharCode(parseInt(decimal));
-        }
+        let text = String.fromCharCode(parseInt(parseInt(binary, 2).toString(10)));
+        document.getElementById('ascii').innerHTML = text;    // set ascii in the table
+
     }
 
     // algorithm to convert decimal to base using division and remainder
@@ -120,6 +116,9 @@
                 document.getElementById('butt' + i).innerHTML = "{{ msgTurnOn }}";
             }
         }
+    }
+    function shift(n) {
+
     }
 </script>
 

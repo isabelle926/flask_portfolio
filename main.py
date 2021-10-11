@@ -41,6 +41,9 @@ def sign_up():
 def binary():
     return render_template("binary.html")
 
+@app.route('/binary_new/')
+def binary_new():
+    return render_template("unsigned_shift.html")
 
 @app.route('/mini_labs/')
 def mini_labs():
