@@ -106,17 +106,13 @@ def isabelle():
 def video():
     return render_template("video.html")
 
-@app.route('/unsigned/')
-def unsigned():
-    return render_template("unsigned.html")
-
 @app.route('/logicgates/')
 def logicgates():
     return render_template("logicgates.html")
 
-@app.route('/signedaddition/')
-def signedaddition():
-    return render_template("signedaddition.html")
+@app.route('/signed_addition/')
+def signed_addition():
+    return render_template("signed_addition.html")
 
 
 
