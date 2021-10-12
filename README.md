@@ -21,6 +21,17 @@ Table of contents:
 | Kaavya | [@rkaavya](https://github.com/rkaavya) | [Tasks](https://github.com/isabelle926/flask_portfolio/issues/assigned/rkaavya) | [Scrum Board](https://github.com/isabelle926/flask_portfolio/projects/1?card_filter_query=assignee%3Arkaavya) | [Commits](https://github.com/isabelle926/flask_portfolio/commits?author=rkaavya) |
 | Kamya | [@kamyamah](https://github.com/kamyamah) | [Tasks](https://github.com/isabelle926/flask_portfolio/issues/assigned/kamyamah) | [Scrum Board](https://github.com/isabelle926/flask_portfolio/projects/1?card_filter_query=assignee%3Akamyamah) | [Commits]( https://github.com/isabelle926/flask_portfolio/commits?author=kamyamah)|
 | Isabelle| [@isabelle926](https://github.com/isabelle926) | [Tasks](https://github.com/isabelle926/flask_portfolio/issues/assigned/isabelle926) | [Scrum Board](https://github.com/isabelle926/flask_portfolio/projects/1?card_filter_query=assignee%3Aisabelle926) | [Commits](https://github.com/isabelle926/flask_portfolio/commits?author=isabelle926) |
+## October 11 (Week 7)
+[Overall Video](https://www.wevideo.com/view/2404178267)
+| Members | Tasks
+| ----------- | ----------- |
+| Vidhi | [Color Codes](https://github.com/isabelle926/flask_portfolio/issues/65)|
+| Kamya | [ASCII](https://github.com/isabelle926/flask_portfolio/commit/967d9ff54577e2e77a1f7109c5f77d04fb73905b) |
+| Isabelle | [Signed Addition](https://github.com/isabelle926/flask_portfolio/commit/ac298acb0ebf8d989879a53ad63acea4e7c64e8c)/[Unsigned Addition](https://github.com/isabelle926/flask_portfolio/issues/71)/[Binary Shift](https://github.com/isabelle926/flask_portfolio/issues/63) | 
+| Kaavya | [Logic Gates](https://github.com/isabelle926/flask_portfolio/issues/67) | 
+| All | Journal Entries/ Notes (in our respective Google Drive Folders |
+
+
 ## October 1 (Week 6)
 | Members | Tasks
 | ----------- | ----------- |
@@ -29,6 +40,7 @@ Table of contents:
 | Isabelle | [RGB frontend](https://github.com/isabelle926/flask_portfolio/commit/ac298acb0ebf8d989879a53ad63acea4e7c64e8c)/[Documentation](https://docs.google.com/document/d/1zfJ4He624alIB6ZFaouzIngSu0mlE-FjGOpr_QVgzdc/edit?usp=sharing) | 
 | Kaavya | [About Us page](https://github.com/isabelle926/flask_portfolio/commit/61f5a572c3aa5c10452f6b887b7e5e7c56754aee) | 
 | All | Journal Entries/ Notes (in our respective Google Drive Folders |
+
 
 ## September 25 (Week 5) -- TPT Score: 3/3
 We included many requirements in our Pages
