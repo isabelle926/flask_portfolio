@@ -125,18 +125,32 @@
             G = document.getElementById('hexadecimal2').value;
             B = document.getElementById('hexadecimal3').value;
 
+            //Red
             if (col == "R") {
                 R = parseInt(binary, 2).toString(16);            }
             if (R.length == 1) {
                 R= R.padStart(2,"0");}
+            let rc = "";
+            rc = "#" + R + "0000";
+            document.getElementById("Rcolor").style.backgroundColor = rc;
+
+            //Green
             if (col == "G") {
                 G = parseInt(binary, 2).toString(16);            }
             if (G.length == 1) {
                 G= G.padStart(2,"0");}
+            let gc = "";
+            gc = "#00" + G + "00";
+            document.getElementById("Gcolor").style.backgroundColor = gc;
+
+            //Blue
             if (col == "B") {
                 B = parseInt(binary, 2).toString(16);          }
             if (B.length == 1) {
                 B= B.padStart(2,"0");                           }
+            let bc = "";
+            bc = "#0000" + B;
+            document.getElementById("Bcolor").style.backgroundColor = bc;
             sColor = "#" + R + G + B;
             document.getElementById("colorSet").innerHTML=sColor;
             document.getElementById("colorSet").style.backgroundColor = sColor;
@@ -196,8 +210,8 @@
     <div class="container">
         <div class="row justify-content-md-center">
             <div class="col-12">
-                <table class="table">
-                    <tr>
+                <table class="table" >
+                    <tr style="border: solid">
                         {% for i in range(BITS) %}
                             <td><img class="img-responsive py-3" id="bulb{{i}}" src="{{ imgBulbOff }}" alt="" width="40" height="Auto">
                                 <button type="button" id="butt{{i}}" onclick="toggleBit('{{i}}')">{{ msgTurnOn }}</button>
@@ -205,16 +219,17 @@
                         {% endfor %}
                         <th>Hexadecimal</th>
                         <th>Decimal</th>
+                        <th>Red</th>
                     </tr>
-                    <tr>
-
+                    <tr style="border: solid">
                         {% for i in range(BITS) %}
                             <td><input type='text' id='digit{{i}}' Value="0" size="1" readonly></td>
                         {% endfor %}
                         <td><input type='text'  id="hexadecimal" Value="00" size="4" readonly></td>
                         <td id="decimal">0</td>
+                        <td id="Rcolor" >
                     </tr>
-                    <tr>
+                    <tr style="border:solid">
                         {% for i in range(BITS) %}
                             <td><img class="img-responsive py-3" id="bulb2{{i}}" src="{{ imgBulbOff }}" alt="" width="40" height="Auto">
                                 <button type="button" id="butt2{{i}}" onclick="toggleBit2('{{i}}')">{{ msgTurnOn }}</button>
@@ -222,16 +237,17 @@
                         {% endfor %}
                         <th>Hexadecimal</th>
                         <th>Decimal</th>
+                        <th>Green</th>
                     </tr>
-                    <tr>
-
+                    <tr style="border: solid">
                         {% for i in range(BITS) %}
                             <td><input type='text' id='digit2{{i}}' Value="0" size="1" readonly></td>
                         {% endfor %}
                         <td> <input type='text'  id="hexadecimal2" Value="00" size="4" readonly></td>
                         <td id="decimal2">0</td>
+                        <td id="Gcolor" >
                     </tr>
-                    <tr>
+                    <tr style="border: solid">
                         {% for i in range(BITS) %}
                             <td><img class="img-responsive py-3" id="bulb3{{i}}" src="{{ imgBulbOff }}" alt="" width="40" height="Auto">
                                 <button type="button" id="butt3{{i}}" onclick="toggleBit3('{{i}}')">{{ msgTurnOn }}</button>
@@ -239,44 +255,23 @@
                         {% endfor %}
                         <th>Hexadecimal</th>
                         <th>Decimal</th>
+                        <th>Blue</th>
                     </tr>
-
-
-                    <tr>
-
+                    <tr style="border: solid">
                         {% for i in range(BITS) %}
                             <td><input type='text' id='digit3{{i}}' Value="0" size="1" readonly></td>
                         {% endfor %}
                         <td><input type='text'  id="hexadecimal3" Value="00" size="4" readonly></td>
                         <td id="decimal3">0</td>
+                        <td id="Bcolor" >
                     </tr>
-                <tr>
+                <tr style="border: solid">
                     <td>Color:</td>
                     <td id="colorSet" >
                     </td>
                 </tr>
                 </table>
-                {#<style>
-                    .block_demo{
-                        border: 2px solid red;
-                        width:50%;
-                        background-color: {% document.getElementById("colorSet").innerHTML %};
-                        display:block;
-                    }
-                </style>
-                <body>
-                <h4>Color</h4>
-                <div class="block_demo">
-                    <ul>
-                        <li>Red</li>
-                        <li>Green</li>
-                        <li>Blue</li>
-                        <li>Orange</li>
-                        <li>Purple</li>
-                        <li>Pink</li>
-                    </ul>
-                </div>
-                </body>#}
+
     </html>
             </div>
 
