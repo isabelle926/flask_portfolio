@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 {% extends "layouts/base.html" %}
 
@@ -15,8 +16,8 @@
 <!-- Hack: Set bulbs and pass as variables via Python render_template
            add new images (ie PNGs) to project -->
 <!-- use your PNGs as default -->
-{% set imgBulbOn = "/static/assets/dog.png" %}
-{% set imgBulbOff = "/static/assets/deaddog.png" %}
+{% set imgBulbOn = "/static/assets/bulb_on.gif" %}
+{% set imgBulbOff = "/static/assets/bulb_off.png" %}
 {% set msgTurnOn = "Turn On" %}
 {% set msgTurnOff = "Turn Off" %}
 
@@ -52,7 +53,7 @@
         function setConversions(binary) {
             // DOM assignment to Octal conversion
             // DOM assignment to Hexadecimal conversion
-            document.getElementById('hexadecimal').innerHTML = parseInt(binary, 2).toString(16);
+            document.getElementById('hexadecimal').value = parseInt(binary, 2).toString(16);
             // DOM assignment to Decimal conversion
             document.getElementById('decimal').innerHTML = parseInt(binary, 2).toString(10);
         }
@@ -61,7 +62,7 @@
         function setConversions2(binary) {
             // DOM assignment to Octal conversion
             // DOM assignment to Hexadecimal conversion
-            document.getElementById('hexadecimal2').innerHTML = parseInt(binary, 2).toString(16);
+            document.getElementById('hexadecimal2').value = parseInt(binary, 2).toString(16);
             // DOM assignment to Decimal conversion
             document.getElementById('decimal2').innerHTML = parseInt(binary, 2).toString(10);
         }
@@ -70,7 +71,7 @@
         function setConversions3(binary) {
             // DOM assignment to Octal conversion
             // DOM assignment to Hexadecimal conversion
-            document.getElementById('hexadecimal3').innerHTML = parseInt(binary, 2).toString(16);
+            document.getElementById('hexadecimal3').value = parseInt(binary, 2).toString(16);
             // DOM assignment to Decimal conversion
             document.getElementById('decimal3').innerHTML = parseInt(binary, 2).toString(10);
         }
@@ -117,51 +118,29 @@
 
         function setColor(binary,col)
         {
-            alert("set color");
             let R ="";
             let G = "";
             let B = "";
+            R = document.getElementById('hexadecimal').value;
+            G = document.getElementById('hexadecimal2').value;
+            B = document.getElementById('hexadecimal3').value;
 
             if (col == "R") {
-                alert("in col r");
-                R = parseInt(binary, 2).toString(16);
-                alert("R" + R);
-                alert(document.getElementById('colorSet').value);
-                document.getElementById('colorSet').innerHTML[0,2].replace(R);
-                if (sColor != undefined) {
-                    alert("sColor" + sColor[0, 2]);
-
-                    sColor = sColor[0, 2].replace(R);
-                    alert("R" + sColor);
-                }
-            }
-                alert(R);
+                R = parseInt(binary, 2).toString(16);            }
+            if (R.length == 1) {
+                R= R.padStart(2,"0");}
             if (col == "G") {
-                G = parseInt(binary, 2).toString(16);
-                if (sColor != undefined) {
-                    sColor = sColor[2, 2].replace(G);
-                    alert("G" + sColor)
-                }
-            }
-                alert(G);
+                G = parseInt(binary, 2).toString(16);            }
+            if (G.length == 1) {
+                G= G.padStart(2,"0");}
             if (col == "B") {
-                B = parseInt(binary, 2).toString(16);
-                if (sColor != undefined) {
-                    sColor = sColor[4, 2].replace(B);
-                    alert("B" + sColor)
-                }
-            }
-                alert(B);
-
-           // <p style="color:rgb(255,0,0);">Red paragraph text</p>
-            if (sColor == "" || sColor == undefined)
-            {
-                sColor = "#" + R + G + B;
-            }
-            alert( "#" + R + G + B);
-            alert("sColor" + sColor);
+                B = parseInt(binary, 2).toString(16);          }
+            if (B.length == 1) {
+                B= B.padStart(2,"0");                           }
+            sColor = "#" + R + G + B;
             document.getElementById("colorSet").innerHTML=sColor;
-            //"#" + R + G + B;
+            document.getElementById("colorSet").style.backgroundColor = sColor;
+
         }
 
         // toggle selected bit and recalculate
@@ -210,33 +189,7 @@
             setColor(binary,"B");
         }
 
-        // add is positive integer, subtract is negative integer
-       {# function add(n) {
-            let binary = getBits();
-            // convert to decimal and do math
-            let decimal = parseInt(binary, 2);
-            if (n > 0) {  // PLUS
-                decimal = MAX === decimal ? 0 : decimal += n; // OVERFLOW or PLUS
-            } else  {     // MINUS
-                decimal = 0 === decimal ? MAX : decimal += n; // OVERFLOW or MINUS
-            }
-            // convert the result back to binary
-            binary = decimal_2_base(decimal, 2);
-            // update conversions
-            setConversions(binary);
-            // update bits
-            for (let i = 0; i < binary.length; i++) {
-                let digit = binary.substr(i, 1);
-                document.getElementById('digit' + i).value = digit;
-                if (digit === "1") {
-                    document.getElementById('bulb' + i).src = "{{ imgBulbOn }}";
-                    document.getElementById('butt' + i).innerHTML = "{{ msgTurnOff }}";
-                } else {
-                    document.getElementById('bulb' + i).src = "{{ imgBulbOff }}";
-                    document.getElementById('butt' + i).innerHTML = "{{ msgTurnOn }}";
-                }
-            }
-        }#}
+
     </script>
 
     <h1 style="font-family: 'Papyrus'" class=text-center">Color Codes+</h1>
@@ -258,7 +211,7 @@
                         {% for i in range(BITS) %}
                             <td><input type='text' id='digit{{i}}' Value="0" size="1" readonly></td>
                         {% endfor %}
-                        <td id="hexadecimal">0</td>
+                        <td><input type='text'  id="hexadecimal" Value="00" size="4" readonly></td>
                         <td id="decimal">0</td>
                     </tr>
                     <tr>
@@ -275,7 +228,7 @@
                         {% for i in range(BITS) %}
                             <td><input type='text' id='digit2{{i}}' Value="0" size="1" readonly></td>
                         {% endfor %}
-                        <td id="hexadecimal2">0</td>
+                        <td> <input type='text'  id="hexadecimal2" Value="00" size="4" readonly></td>
                         <td id="decimal2">0</td>
                     </tr>
                     <tr>
@@ -294,20 +247,20 @@
                         {% for i in range(BITS) %}
                             <td><input type='text' id='digit3{{i}}' Value="0" size="1" readonly></td>
                         {% endfor %}
-                        <td id="hexadecimal3">0</td>
+                        <td><input type='text'  id="hexadecimal3" Value="00" size="4" readonly></td>
                         <td id="decimal3">0</td>
                     </tr>
                 <tr>
-                    <td>Hexcode:</td>
-                    <td  ><input type='text' id ="colorSet" Value=0 readonly>
+                    <td>Color:</td>
+                    <td id="colorSet" >
                     </td>
                 </tr>
                 </table>
-                <style>
+                {#<style>
                     .block_demo{
                         border: 2px solid red;
                         width:50%;
-                        background-color: #1da1f2;
+                        background-color: {% document.getElementById("colorSet").innerHTML %};
                         display:block;
                     }
                 </style>
@@ -323,7 +276,7 @@
                         <li>Pink</li>
                     </ul>
                 </div>
-                </body>
+                </body>#}
     </html>
             </div>
 
