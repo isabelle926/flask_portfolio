@@ -30,7 +30,7 @@ Table of contents:
 | Vidhi | [Color Codes](https://github.com/isabelle926/flask_portfolio/issues/65)|
 | Kamya | [ASCII](https://github.com/isabelle926/flask_portfolio/commit/967d9ff54577e2e77a1f7109c5f77d04fb73905b) |
 | Isabelle | [Signed Addition](https://github.com/isabelle926/flask_portfolio/commit/ac298acb0ebf8d989879a53ad63acea4e7c64e8c)/[Unsigned Addition](https://github.com/isabelle926/flask_portfolio/issues/71)/[Binary Shift](https://github.com/isabelle926/flask_portfolio/issues/63) | 
-| Kaavya | [Logic Gates](https://github.com/isabelle926/flask_portfolio/issues/67) | 
+| Kaavya | [Logic Gates](https://github.com/isabelle926/flask_portfolio/blob/main/templates/logicgates.html) | 
 | All | Journal Entries/ Notes (in our respective Google Drive Folders |
 
 
