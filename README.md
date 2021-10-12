@@ -24,7 +24,7 @@ Table of contents:
 ## October 11 (Week 7)
 [Overall Video](https://www.wevideo.com/view/2404178267)
 [Vidhi's Notes and Quiz Corrections](https://docs.google.com/document/d/1d4l1lndmKadegMlsc_juP7lvekAnOrEeGidaaqSF-k4/edit?usp=sharing)
- Kamya Link to notes:https://docs.google.com/document/d/1YwHcEUx95tVjapiqkIw8jVvm2nw1QCAl6bSsZ8HWqcY/edit?usp=sharing
+[ Kamya Link to notes:](https://docs.google.com/document/d/1YwHcEUx95tVjapiqkIw8jVvm2nw1QCAl6bSsZ8HWqcY/edit?usp=sharing)
 | Members | Tasks
 | ----------- | ----------- |
 | Vidhi | [Color Codes](https://github.com/isabelle926/flask_portfolio/issues/65)|
