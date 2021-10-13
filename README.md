@@ -23,6 +23,9 @@ Table of contents:
 | Isabelle| [@isabelle926](https://github.com/isabelle926) | [Tasks](https://github.com/isabelle926/flask_portfolio/issues/assigned/isabelle926) | [Scrum Board](https://github.com/isabelle926/flask_portfolio/projects/1?card_filter_query=assignee%3Aisabelle926) | [Commits](https://github.com/isabelle926/flask_portfolio/commits?author=isabelle926) |
 
 ## Week 8
+
+[Review Ticket](https://github.com/isabelle926/flask_portfolio/issues/76)
+
 | Members | Tasks
 | ----------- | ----------- |
 | Vidhi | [Finish Home Page](https://github.com/isabelle926/flask_portfolio/issues/73)/[Finish Sign-up Page](https://github.com/isabelle926/flask_portfolio/issues/74) |
