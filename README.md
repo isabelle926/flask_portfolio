@@ -7,6 +7,27 @@ Table of contents:
 - project idea 
 - parts of project 
 
+
+## Description
+Members: Kamya Mahendru, Isabelle Gunawan, Kaavya, Vidhi Kulkarni
+ 
+Project Idea: Create a website where high school students can find jobs, internships, and summer programs
+ 
+Pages Home, About (drop down), Mini-labs (drop down), Video 0, Jobs, Quiz, 
+
+Home: What our site is about with a cool background 
+
+Page one about us: The about us page will contain a dropdown with a bit about each member on the team and what they did to colaborate on the website
+
+Mini labs: where each one of our greet functions are located 
+
+Video 0 our first Journal.
+
+Jobs: Where jobs, internships, and summer program links are going to be located 
+
+Quiz: A fun quiz of what job best fits your preference
+
+
 ## Contributers
 
 [Scrum Board](https://github.com/isabelle926/flask_portfolio/projects/1) and [Contributers](https://github.com/isabelle926/flask_portfolio/graphs/contributors)
@@ -159,23 +180,3 @@ Developers (Kaavya Ramakumar): Integration of Video Journal 0 into a mini-lab pa
 
 Evidence: [Video 0](https://github.com/isabelle926/flask_portfolio/issues/2)
 
-
-
-## Description
-Members: Kamya Mahendru, Isabelle Gunawan, Kaavya, Vidhi Kulkarni
- 
-Project Idea: Create a website where high school students can find jobs, internships, and summer programs
- 
-Pages Home, About (drop down), Mini-labs (drop down), Video 0, Jobs, Quiz, 
-
-Home: What our site is about with a cool background 
-
-Page one about us: The about us page will contain a dropdown with a bit about each member on the team and what they did to colaborate on the website
-
-Mini labs: where each one of our greet functions are located 
-
-Video 0 our first Journal.
-
-Jobs: Where jobs, internships, and summer program links are going to be located 
-
-Quiz: A fun quiz of what job best fits your preferences
