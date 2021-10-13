@@ -21,7 +21,18 @@ Table of contents:
 | Kaavya | [@rkaavya](https://github.com/rkaavya) | [Tasks](https://github.com/isabelle926/flask_portfolio/issues/assigned/rkaavya) | [Scrum Board](https://github.com/isabelle926/flask_portfolio/projects/1?card_filter_query=assignee%3Arkaavya) | [Commits](https://github.com/isabelle926/flask_portfolio/commits?author=rkaavya) |
 | Kamya | [@kamyamah](https://github.com/kamyamah) | [Tasks](https://github.com/isabelle926/flask_portfolio/issues/assigned/kamyamah) | [Scrum Board](https://github.com/isabelle926/flask_portfolio/projects/1?card_filter_query=assignee%3Akamyamah) | [Commits]( https://github.com/isabelle926/flask_portfolio/commits?author=kamyamah)|
 | Isabelle| [@isabelle926](https://github.com/isabelle926) | [Tasks](https://github.com/isabelle926/flask_portfolio/issues/assigned/isabelle926) | [Scrum Board](https://github.com/isabelle926/flask_portfolio/projects/1?card_filter_query=assignee%3Aisabelle926) | [Commits](https://github.com/isabelle926/flask_portfolio/commits?author=isabelle926) |
-## October 11 (Week 7)
+
+## Week 8
+| Members | Tasks
+| ----------- | ----------- |
+| Vidhi | [Finish Home Page](https://github.com/isabelle926/flask_portfolio/issues/73)/[Finish Sign-up Page](https://github.com/isabelle926/flask_portfolio/issues/74) |
+| Kamya | [Finish Jobs Page](https://github.com/isabelle926/flask_portfolio/issues/77) |
+| Isabelle | [Search Bar](https://github.com/isabelle926/flask_portfolio/issues/72)/[Finish Sign-up Page](https://github.com/isabelle926/flask_portfolio/issues/74) | 
+| Kaavya | [Internships Page](https://github.com/isabelle926/flask_portfolio/issues/75) | 
+| All | Journal Entries/ Notes (in our respective Google Drive Folders |
+
+
+## Week 7
 [Overall Video](https://drive.google.com/file/d/1VFjp-QX_s3xWL7Gbr9t-bxC2cRmLwdgC/view?usp=sharing)
 
 [Review Ticket](https://github.com/isabelle926/flask_portfolio/issues/70)
@@ -29,9 +40,9 @@ Table of contents:
 
 [Vidhi's Notes and Quiz Corrections](https://docs.google.com/document/d/1d4l1lndmKadegMlsc_juP7lvekAnOrEeGidaaqSF-k4/edit?usp=sharing)
 
+[Isabelle's Quiz Corrections](https://docs.google.com/document/d/1cmhOdOzwJ5nEVRz33i8Q1fxXPKShZbLzpoxAyUNZDaE/edit?usp=sharing)
 
 [Kamya Link to notes](https://docs.google.com/document/d/1YwHcEUx95tVjapiqkIw8jVvm2nw1QCAl6bSsZ8HWqcY/edit?usp=sharing)
-
 
 [Kaavya's Notes](https://docs.google.com/document/d/1tAFVetDiPvGBPtDj9Zj3vjqQsLocj-6hw-vavvh7Pcw/edit)
 
@@ -45,7 +56,7 @@ Table of contents:
 | All | Journal Entries/ Notes (in our respective Google Drive Folders |
 
 
-## October 1 (Week 6)
+## Week 6
 | Members | Tasks
 | ----------- | ----------- |
 | Vidhi | [RGB new development](https://github.com/isabelle926/flask_portfolio/commit/0378c24ab133bc8eeb61ae57837cb7bba02656d8)/[RGB Backend](https://github.com/isabelle926/flask_portfolio/commit/73c23c2ad438b40e278c73e6b3e5ce557bdbab4e)|
