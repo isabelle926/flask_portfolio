@@ -1,6 +1,7 @@
 # import "packages" from flask
 from flask import Flask, render_template, request
 from algorithms.image import image_data
+from pathlib import Path
 
 # create a Flask instance
 app = Flask(__name__)
@@ -27,7 +28,8 @@ def summer_programs():
 
 @app.route('/rgb/', methods=["GET", "POST"])
 def rgb():
-    return render_template("rgb.html", images=image_data())
+    path = Path(app.root_path) / "static" / "assets" / "images"
+    return render_template('rgb.html', images=image_data(path))
 
 @app.route('/questionnaires/')
 def questionnaires():
@@ -49,6 +51,10 @@ def binary_new():
 def mini_labs():
     return render_template("mini_labs.html")
 
+
+@app.route('/colorcodes/')
+def colorcodes():
+    return render_template("colorcodes.html")
 
 @app.route('/hawkers/')
 def hawkers():
@@ -114,10 +120,12 @@ def logicgates():
 def signed_addition():
     return render_template("signed_addition.html")
 
+@app.route('/internships/')
+def internships():
+    return render_template("internships.html")
+
 
 
 # runs the application on the development server
 if __name__ == "__main__":
     app.run(debug=True)
-
-
