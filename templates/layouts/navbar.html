@@ -3,6 +3,25 @@ This HTML is setup as a fragment allowing it to be "included" by other HTML file
 -->
 <!-- Bootstrap Navigation Code -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <!-- The more i change this, the more hideous it becomes -->
+    <style>
+        .search-container {
+            float: right;
+        }
+        .search-container button {
+            float: right;
+            padding: 6px 10px;
+            margin-top: 8px;
+            margin-right: 16px;
+            background: #ddd;
+            font-size: 17px;
+            border: none;
+            cursor: pointer;
+        }
+        .search-container button:hover {
+            background: #ccc;
+        }
+    </style>
     <a class="navbar-brand" href="http://nighthawkcodingsociety.com/">
         <img src="/static/assets/jobs760_400.jpeg" width="50" height="50" class="d-inline-block align-center" alt="">
 
@@ -39,9 +58,6 @@ This HTML is setup as a fragment allowing it to be "included" by other HTML file
                 <a class="nav-link" href={{ url_for('summer_programs') }}>Summer Programs<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href={{ url_for('about_us') }}>About Us<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item active">
                 <a class="nav-link" href={{ url_for('jobs') }}>Jobs<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item active">
@@ -54,11 +70,13 @@ This HTML is setup as a fragment allowing it to be "included" by other HTML file
             <li class="nav-item active">
                 <a class="nav-link" href={{ url_for('sign_up') }}>Sign Up<span class="sr-only">(current)</span></a>
             </li>
-
-
-
-
-
+            <div class="search-container">
+                <form action="/search_page.php">
+                    <input type="text" placeholder="Search.." name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+        </ul>
     </div>
     </li>
     </ul>
