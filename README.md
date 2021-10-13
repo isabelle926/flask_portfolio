@@ -24,6 +24,8 @@ Table of contents:
 ## October 11 (Week 7)
 [Overall Video](https://drive.google.com/file/d/1VFjp-QX_s3xWL7Gbr9t-bxC2cRmLwdgC/view?usp=sharing)
 
+[Review Ticket](https://github.com/isabelle926/flask_portfolio/issues/70)
+
 
 [Vidhi's Notes and Quiz Corrections](https://docs.google.com/document/d/1d4l1lndmKadegMlsc_juP7lvekAnOrEeGidaaqSF-k4/edit?usp=sharing)
 
