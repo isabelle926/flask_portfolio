@@ -1,75 +1,112 @@
+{% include "layouts/base.html" %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+
+    <style>
+        .container {
+            padding: 2rem 0rem;
+        }
+
+        h4 {
+            margin: 2rem 0rem 1rem;
+        }
+
+        .table-image {
+        td, th {
+            vertical-align: middle;
+        }
+        }
+    </style>
+
 </head>
 <body>
-{% include "layouts/base.html" %}
+<h2>Looking for a Summer Program?</h2>
+<input type="text" id="myInput" onkeyup="searchSummer()" placeholder="Search for summer programs.." title="find summer">
 
-<style>
-    .button {
-        border-radius: 4px;
-        background-color: #f4511e;
-        border: none;
-        color: #4CAF50;
-        text-align: center;
-        font-size: 28px;
-        padding: 20px;
-        width: 200px;
-        transition: all 0.5s;
-        cursor: pointer;
-        margin: 5px;
-    }
+<ul id="myUL">
+    <li><a href="#">Placeholders below until I find a suitable api</a></li>
+    <li><a href="#">Learn to cook children at UC Berkley!</a></li>
+    <li><a href="#">Gerrymandering Summer School</a></li>
+    <li><a href="#">John Doe Summer Journalism Program</a></li>
+</ul>
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <table class="table table-image">
+                <thead>
+                <tr>
+                    <th scope="col">Job #</th>
+                    <th scope="col">Image</th>
+                    <th scope="col">Job Description</th>
+                    <th scope="col">Address</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td class="w-25">
+                        <a href="https://www.themelt.com/careers">
+                        <img src="/static/assets/images/The%20%20Melt.webp" class="img-fluid img-thumbnail">
+                        </a>
+                    </td>
+                    <td>Team Member</td>
+                    <td>8849 Villa La Jolla Dr, La Jolla, CA 92037</td>
 
-    .button span {
-        cursor: pointer;
-        display: inline-block;
-        position: relative;
-        transition: 0.5s;
-    }
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td class="w-25">
+                        <a href="https://sandiegozoowildlifealliance.org/jobs">
+                        <img src="/static/assets/images/sandiego.jpg" class="img-fluid img-thumbnail" alt="Sheep">
+                        </a>
+                    </td>
+                    <td>Sales Associate</td>
+                    <td>2920 Zoo Dr, San Diego, CA 92101</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td class="w-25">
+                        <a href="https://www.noodles.com/careers/">
+                        <img src="/static/assets/images/noodles.jpg" class="img-fluid img-thumbnail" >
+                        </a>
+                    </td>
+                    <td>Team Member</td>
+                    <td>4545 La Jolla Village Dr, San Diego, CA 92122</td>
 
-    .button span:after {
-        content: '\00bb';
-        position: absolute;
-        opacity: 0;
-        top: 0;
-        right: -20px;
-        transition: 0.5s;
-    }
+                </tr>
+                <tr>
+                    <th scope="row">4</th>
+                    <td class="w-25">
+                        <a href="https://www.peets.com/pages/careers">
+                        <img src="/static/assets/images/Peets.jpg" class="img-fluid img-thumbnail" >
+                        </a>
+                    </td>
+                    <td>Barista</td>
+                    <td>11922 Bernardo Plaza Dr, San Diego, CA 92128</td>
 
-    .button:hover span {
-        padding-right: 50px;
-    }
+                </tr>
+                <tr>
+                    <th scope="row">6</th>
+                    <td class="w-25"><br>
+                        <a href="https://aeo.jobs">
+                        <img src="/static/assets/images/aerie.png" class="img-fluid img-thumbnail" alt="Sheep">
+                        </a>
+                    </td>
+                    <td>Team Member and Brand Ambassador</td>
+                    <td>200 E Via Rancho Pkwy Suite 473, Escondido, CA 92025</td>
 
-    .button:hover span:after {
-        opacity: 1;
-        right: 0;
-    }
-</style>
-
-<p id="demo"></p>
-<h2>Looking for a Job?</h2>
-<div class="search-container">
-    <form action="/action_page.php">
-        <input type="text" placeholder="What Job?" name="search_what_jobs">
-        <input type="text" placeholder="Where?" name="search_where_job">
-        <button type="submit"><i class="fa fa-search"></i></button>
-    </form>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
 </div>
 
-<script>
-    function learnSummerProgram() {
-        document.getElementById("demo").innerHTML = "Hello World";
-    }
 
-    window.onclick = changeBackground;
 
-    function changeBackground() {
-        document.getElementsByTagName("BODY")[0].style.backgroundColor = "yellow";
-    }
-</script>
-<a href="https://www.wikihow.com/Get-a-Job" class="button"><span>Get Job</span></a>
 
 </body>
-</html>
+<html/>
