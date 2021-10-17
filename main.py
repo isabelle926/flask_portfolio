@@ -22,6 +22,10 @@ def about_us():
 def jobs():
     return render_template("jobs.html")
 
+@app.route('/internships/')
+def internships():
+    return render_template("internships.html")
+
 @app.route('/summer_programs/')
 def summer_programs():
     return render_template("summer_programs.html")
@@ -120,9 +124,6 @@ def logicgates():
 def signed_addition():
     return render_template("signed_addition.html")
 
-@app.route('/internships/')
-def internships():
-    return render_template("internships.html")
 
 
 
