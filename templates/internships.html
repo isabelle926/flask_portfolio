@@ -7,7 +7,72 @@
 </head>
 <body>
 
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    #myInput2 {
+        background-image: url('/css/searchicon.png');
+        background-position: 10px 12px;
+        background-repeat: no-repeat;
+        width: 100%;
+        font-size: 16px;
+        padding: 12px 20px 12px 40px;
+        border: 1px solid #ddd;
+        margin-bottom: 12px;
+    }
+
+    #myUL2 {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    #myUL2 li a {
+        border: 1px solid #ddd;
+        margin-top: -1px; /* Prevent double borders */
+        background-color: #f6f6f6;
+        padding: 12px;
+        text-decoration: none;
+        font-size: 18px;
+        color: black;
+        display: block
+    }
+
+    #myUL2 li a:hover:not(.header) {
+        background-color: #eee;
+    }
+</style>
+
+
+
+<p id="demo2"></p>
+
+<script>
+    function learnInternships() {
+        document.getElementById("demo2").innerHTML = "Hello World";
+    }
+    function searchInternships() {
+        var input, filter, ul, li, a, i, txtValue;
+        input = document.getElementById("myInput2");
+        filter = input.value.toUpperCase();
+        ul = document.getElementById("myUL2");
+        li = ul.getElementsByTagName("li");
+        for (i = 0; i < li.length; i++) {
+            a = li[i].getElementsByTagName("b")[0];
+            txtValue = a.textContent || a.innerText;
+            if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                li[i].style.display = "";
+            } else {
+                li[i].style.display = "none";
+            }
+        }
+    }
+</script>
+
 {% block meta %}
+
 <script>
     function myFunction(){
 
@@ -41,8 +106,17 @@
             }
         }
 
-
+        if (c.checked)
+        {
+            var str = "Law Internships";
+            var result = str.link("https://www.internships.com/legal/san-diego-ca");
         }
+        else {
+            display("Please Check a Box")
+        }
+
+
+
         if (!(x.checked && y.checked)){ // if not and (if none or one are checked)
             document.getElementById("nand").innerHTML = "1";
         }
@@ -74,6 +148,7 @@
             document.getElementById("not").innerHTML = "0";
         }
     }
+
 </script>
 {% endblock %}
 
@@ -109,7 +184,17 @@
     </div>
 </div>
 
+<h2>Looking for an Internship?</h2>
+<input type="text" id="myInput2" onkeyup="searchInternships()" placeholder="Search for internships." title="find internships">
 
+<ul id="myUL2">
+    <li><a href="https://www.pathwaystoscience.org/undergrads.aspx">STEM</a></li>
+    <li><a href="https://www.indeed.com/q-Business-Internship-Summer-l-San-Diego,-CA-jobs">Business</a></li>
+    <li><a href="https://www.internships.com/legal/san-diego-ca">Law</a></li>
+    <li><a href="https://www.internships.com/art/san-diego-ca">Art</a></li>
+    <li><a href="https://www.internships.com/medical/san-diego-ca">Medial</a></li>
+    <li><a href="#">Culinary Arts</a></li>
+</ul>
 
 </body>
 </html>
