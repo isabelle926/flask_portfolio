@@ -120,6 +120,10 @@ def video():
 def logicgates():
     return render_template("logicgates.html")
 
+@app.route('/contactus/')
+def contact_us():
+    return render_template("contact_us.html")
+
 @app.route('/signed_addition/')
 def signed_addition():
     return render_template("signed_addition.html")
