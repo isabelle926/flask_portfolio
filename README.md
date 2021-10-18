@@ -49,7 +49,7 @@ Quiz: A fun quiz of what job best fits your preference
 
 | Members | Tasks
 | ----------- | ----------- |
-| Vidhi | [Finish Home Page](https://github.com/isabelle926/flask_portfolio/issues/73)/[Make Contact Us Page](https://github.com/isabelle926/flask_portfolio/issues/74) |
+| Vidhi | [Finish Home Page](https://github.com/isabelle926/flask_portfolio/issues/73)/[Make Contact Us Page](https://github.com/isabelle926/flask_portfolio/issues/80) |
 | Kamya | [Finish Jobs Page](https://github.com/isabelle926/flask_portfolio/issues/77) |
 | Isabelle | [Search Bar](https://github.com/isabelle926/flask_portfolio/issues/72) | 
 | Kaavya | [Internships Page](https://github.com/isabelle926/flask_portfolio/issues/75) | 
