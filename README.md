@@ -49,11 +49,11 @@ Quiz: A fun quiz of what job best fits your preference
 
 | Members | Tasks
 | ----------- | ----------- |
-| Vidhi | [Finish Home Page](https://github.com/isabelle926/flask_portfolio/issues/73)/[Finish Sign-up Page](https://github.com/isabelle926/flask_portfolio/issues/74) |
+| Vidhi | [Finish Home Page](https://github.com/isabelle926/flask_portfolio/issues/73)/[Make Contact Us Page](https://github.com/isabelle926/flask_portfolio/issues/74) |
 | Kamya | [Finish Jobs Page](https://github.com/isabelle926/flask_portfolio/issues/77) |
-| Isabelle | [Search Bar](https://github.com/isabelle926/flask_portfolio/issues/72)/[Finish Sign-up Page](https://github.com/isabelle926/flask_portfolio/issues/74) | 
+| Isabelle | [Search Bar](https://github.com/isabelle926/flask_portfolio/issues/72) | 
 | Kaavya | [Internships Page](https://github.com/isabelle926/flask_portfolio/issues/75) | 
-| All | Journal Entries/ Notes (in our respective Google Drive Folders |
+| All | Journal Entries/ Notes (in our respective Google Drive Folders) |
 
 
 ## Week 7
