@@ -46,7 +46,7 @@ Quiz: A fun quiz of what job best fits your preference
 
 ## Week 9
 
-[Ticket with Individual Final Videos]()
+[Ticket with Individual Final Videos](https://github.com/isabelle926/flask_portfolio/issues/82)
 
 
 
