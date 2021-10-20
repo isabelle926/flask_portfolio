@@ -56,6 +56,14 @@ Quiz: A fun quiz of what job best fits your preference
 
 [Review Ticket](https://github.com/isabelle926/flask_portfolio/issues/76)
 
+| Member | Score
+| ----------- | ----------- |
+| Vidhi | 7.5/8 |
+| Kamya | 7.5/8 |
+| Isabelle | 7.5/8 | 
+| Kaavya | 7.5/8 | 
+
+
 | Members | Tasks
 | ----------- | ----------- |
 | Vidhi | [Finish Home Page](https://github.com/isabelle926/flask_portfolio/issues/73)/[Make Contact Us Page](https://github.com/isabelle926/flask_portfolio/issues/80) |
