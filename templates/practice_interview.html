@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include "layouts/base.html" %}
+<head>
+    <meta charset="UTF-8">
+    <title>Practice Interview Questions!</title>
+
+</head>
+<body>
+    <h2>Generate A Random Interview Question</h2>
+    <p>Practice for an upcoming interview!</p>
+
+    <button onClick="window.location.reload();">Refresh</button>
+    <p id="demo"></p>
+    <script>
+        function rand_quest(items)
+        {
+
+            return items[Math.floor(Math.random()*items.length)];
+
+        }
+        var questions = [
+            "How Did You Hear About This Position?",
+            "Why Should We Hire You?",
+            "What Do You Consider to Be Your Weaknesses?",
+            "What business would you love to start?",
+            "What do you consider to be your biggest professional achievement?",
+            "Tell me about the last time a co-worker or customer got angry with you. What happened?",
+            "What kind of work environment do you like best?",
+            "Tell me about the toughest decision you had to make in the last six months.",
+            "Tell me about a time you disagreed with a decision. What did you do?",
+            "A snail is at the bottom of a 30-foot well. Each day he climbs up three feet, but at night he slips back two feet. How many days will it take him to climb out of the well?",
+            "What is the name of our CEO?",
+            "If I called your boss right now and asked him/her what is an area that you could improve on, what would he/she say?"
+        ];
+        document.getElementById("demo").innerHTML = rand_quest(questions)
+    </script>
+</body>
+</html>

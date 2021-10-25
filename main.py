@@ -43,9 +43,23 @@ def questionnaires():
 def sign_up():
     return render_template("sign_up.html")
 
-@app.route('/binary/')
+@app.route("/binary", methods=['GET','POST'])
 def binary():
-    return render_template("binary.html")
+    if request.form:
+        try:
+            bits = request.form.get("bits")
+
+            if request.form["picture_change"] == "Light Bulbs": # checks which button is pressed; if light bulbs button is pressed, light bulbs are the picture and vice versa
+                if len(bits) != 0:
+                    return render_template("binary.html", bits=int(bits), image_path_on="/static/assets/bulb_on.gif", image_path_off="/static/assets/bulb_off.png")
+            if request.form["picture_change"] == "Dog Bulbs":
+                if len(bits) != 0:  # input field has content
+                    return render_template("binary.html", bits=int(bits), image_path_on="/static/assets/dog.png", image_path_off="/static/assets/deaddog.png")
+
+            # starting and empty input default
+        except:
+            return render_template("binary.html", bits=8, image_path_on="/static/assets/bulb_on.gif", image_path_off="/static/assets/bulb_off.png")
+    return render_template("binary.html", bits=8, image_path_on="/static/assets/bulb_on.gif", image_path_off="/static/assets/bulb_off.png")
 
 @app.route('/binary_new/')
 def binary_new():
@@ -127,6 +141,10 @@ def contact_us():
 @app.route('/signed_addition/')
 def signed_addition():
     return render_template("signed_addition.html")
+
+@app.route('/practice_interview/')
+def practice_interview():
+    return render_template("practice_interview.html")
 
 
 

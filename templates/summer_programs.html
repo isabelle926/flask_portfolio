@@ -5,8 +5,8 @@
     <title>Summer Programs</title>
 </head>
 <body>
-{% include "layouts/base.html" %}
-
+{% extends "layouts/base.html" %}
+{% block body %}
 <style>
     * {box-sizing: border-box}
     body {font-family: Verdana, sans-serif; margin:0}
@@ -83,14 +83,6 @@
         background-color: #717171;
     }
 
-    /* Fading animation */
-    .fade {
-        -webkit-animation-name: fade;
-        -webkit-animation-duration: 1.5s;
-        animation-name: fade;
-        animation-duration: 1.5s;
-    }
-
     @-webkit-keyframes fade {
         from {opacity: .4}
         to {opacity: 1}
@@ -104,24 +96,6 @@
     /* On smaller screens, decrease text size */
     @media only screen and (max-width: 300px) {
         .prev, .next,.text {font-size: 11px}
-    }
-    .filterDiv {
-        float: left;
-        background-color: #2196F3;
-        color: #ffffff;
-        width: 100px;
-        line-height: 100px;
-        text-align: center;
-        margin: 2px;
-        display: none;
-    }
-    .show {
-        display: block;
-    }
-
-    .container {
-        margin-top: 20px;
-        overflow: hidden;
     }
 
     /* Style the buttons */
@@ -285,4 +259,5 @@
 </ul>
 
 </body>
+{% endblock %}
 </html>
