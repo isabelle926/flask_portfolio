@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-
+    {% block head %}
     <style>
         .container {
             padding: 2rem 0rem;
@@ -20,18 +20,25 @@
         }
         }
     </style>
+        <script>
+            function myFunction() {
+            var x = document.getElementById("myDIV");
+            if (x.innerHTML === "In 2020, around 17.6 percent of teenagers between ages 16 and 19 were employees while enrolled at school in the United States. This is a decrease from the previous year, when 19.2 percent of teenagers were working while at school.") {
+            x.innerHTML = "The most common job for teens is in fast food. These jobs offer minimum wage. A teenager will usually cook food, take orders, work the cash register or assist with cleaning.";
+        } else {
+            x.innerHTML = "In 2020, around 17.6 percent of teenagers between ages 16 and 19 were employees while enrolled at school in the United States. This is a decrease from the previous year, when 19.2 percent of teenagers were working while at school.";
+        }
+        }
+        </script>
+    {% endblock %}
 
+    {% block body %}
 </head>
 <body>
-<h2>Looking for a Summer Program?</h2>
-<input type="text" id="myInput" onkeyup="searchSummer()" placeholder="Search for summer programs.." title="find summer">
 
-<ul id="myUL">
-    <li><a href="#">Placeholders below until I find a suitable api</a></li>
-    <li><a href="#">Learn to cook children at UC Berkley!</a></li>
-    <li><a href="#">Gerrymandering Summer School</a></li>
-    <li><a href="#">John Doe Summer Journalism Program</a></li>
-</ul>
+        <p><button onclick="myFunction()">Click Me</button></p>
+
+        <div id="myDIV">In 2020, around 17.6 percent of teenagers between ages 16 and 19 were employees while enrolled at school in the United States. This is a decrease from the previous year, when 19.2 percent of teenagers were working while at school.</div>
 <div class="container">
     <div class="row">
         <div class="col-12">
@@ -104,7 +111,7 @@
         </div>
     </div>
 </div>
-
+    {% endblock %}
 
 
 
