@@ -2,6 +2,28 @@
 
 {% block head %}
     <title>Title</title>
+    <style>
+        .question {
+            display: flex;
+            /* uncomment the next line to center the questions and answers */
+            /* justify-content: center; */
+            margin-top: 2em;
+        }
+
+        /* STYLE FLEX ITEM */
+        .answer-choice {
+            margin: 5px;
+        }
+
+
+
+        /* STYLE BUTTON */
+        button {
+            margin-top: 5px;
+        }
+    </style>
+
+
     <script>
 
         var jobScore=0;
@@ -11,45 +33,53 @@
         var restart = document.getElementById ("restart");
 
         var q1a1= document.getElementById ("q1a1");
-        var q1a2= document.getElementById ("q1a2");
+       var q1a2= document.getElementById ("q1a2");
 
-        var q2a1= document.getElementById ("q2a1");
+       var q2a1= document.getElementById ("q2a1");
         var q2a2= document.getElementById ("q2a2");
 
         var q3a1= document.getElementById ("q3a1");
         var q3a2= document.getElementById ("q3a2");
 
 
-        q1a1.addEventListener("click", jobScore);
-        q1a2.addEventListener("click", internshipScore);
+        q1a1.addEventListener("click", Job);
+        q1a2.addEventListener("click", Internship);
 
-        q2a1.addEventListener("click", jobScore);
-        q2a2.addEventListener("click", internshipScore);
+        q2a1.addEventListener("click", Job);
+        q2a2.addEventListener("click", Internship);
 
-        q3a1.addEventListener("click", jobScore);
-        q3a2.addEventListener("click", internshipScore);
+        q3a1.addEventListener("click", Job);
+        q3a2.addEventListener("click", Internship);
 
         restart.addEventListener ("click",restartQuiz);
 
-        function job(){
+        function Job(){
+            alert("jobs")
             jobScore += 1;
             questionCount += 1;
-            console.log("qestionCount =" + questionCount + "jobScore ="+ jobScore);
+            document.getElementById("counter").innerHTML = parseInt(questionCount).toString();
+
+            console.log("questionCount =" + questionCount + "jobScore ="+ jobScore);
 
             if (questionCount == 3) {
                 console.log("The quiz is done!")
                 updateResult();
+
             }
         }
 
 
-        function internship(){
+        function Internship(){
+            alert("internship")
             internshipScore += 1;
             questionCount += 1;
-            console.log("qestionCount ="+ questionCount+"internshipScore =" + internshipScore);
+
+            console.log("questionCount ="+ questionCount+"internshipScore =" + internshipScore);
+
             if (questionCount == 3){
                 console.log ("The quiz is done!")
                 updateResult();
+
             }
         }
 
@@ -82,6 +112,7 @@
 
 <main>
  <h3>What is in your cards. An Internship or a Job based on what food you prefer!</h3>
+    <p> if you are internships person, internships is greater than 2 if you are a jobs person jobs is greater than 2</p>
     <h2> Pizza or Pasta?</h2>
     <div class="question">
 
@@ -89,14 +120,14 @@
             <img src="/static/assets/images/pizza2.png"
              width="200"
              height="auto"/>
-            <button type="button" id="q1a1">Pizza</button>
+            <button type="button" id="q1a1" onclick="Job()">Pizza</button>
         </div>
 
         <div class="answer-choice">
             <img src="/static/assets/images/pasta.jpg"
                  width="200"
                  height="auto"/>
-            <button type="button" id="q1a2">Pasta</button>
+            <button type="button" id="q1a2" onclick="Internship()">Pasta</button>
         </div>
 
     </div>
@@ -108,14 +139,14 @@
             <img src="/static/assets/images/sandwich2.jpg"
                  width="200"
                  height="auto"/>
-            <button type="button" id="q2a1">Sandwich</button>
+            <button type="button" id="q2a1" onclick="Job()">Sandwich</button>
         </div>
 
         <div class="answer-choice">
             <img src="/static/assets/images/tacos.jpg"
                  width="200"
                  height="auto"/>
-            <button type="button" id="q2a2">Tacos</button>
+            <button type="button" id="q2a2" onclick="Internship()">Tacos</button>
         </div>
 
     </div>
@@ -127,42 +158,23 @@
             <img src="/static/assets/images/fries.jpg"
                  width="200"
                  height="auto"/>
-            <button type="button" id="q1a1">Fries</button>
+            <button type="button" id="q3a1" onclick="Job()">Fries</button>
         </div>
 
         <div class="answer-choice">
             <img src="/static/assets/images/milkshake.jpg"
                  width="200"
                  height="auto"/>
-            <button type="button" id="q1a1">Milkshake</button>
+            <button type="button" id="q3a1" onclick="Internship()">Milkshake</button>
         </div>
 
     </div>
 
-    <h2 id="result">You are a...</h2>
-    <button id="restart">Restart</button>
+
+
 
 </main>
-<{% endblock %}>
-
-<style>
-    .question {
-        display: flex;
-        /* uncomment the next line to center the questions and answers */
-        /* justify-content: center; */
-        margin-top: 2em;
-    }
-
-    /* STYLE FLEX ITEM */
-    .answer-choice {
-        margin: 5px;
-    }
+{% endblock %}
 
 
-
-    /* STYLE BUTTON */
-    button {
-        margin-top: 5px;
-    }
-</style>
 
