@@ -7,150 +7,7 @@
 </head>
 <body>
 
-<style>
-    * {
-        box-sizing: border-box;
-    }
 
-    #myInput2 {
-        background-image: url('/css/searchicon.png');
-        background-position: 10px 12px;
-        background-repeat: no-repeat;
-        width: 100%;
-        font-size: 16px;
-        padding: 12px 20px 12px 40px;
-        border: 1px solid #ddd;
-        margin-bottom: 12px;
-    }
-
-    #myUL2 {
-        list-style-type: none;
-        padding: 0;
-        margin: 0;
-    }
-
-    #myUL2 li a {
-        border: 1px solid #ddd;
-        margin-top: -1px; /* Prevent double borders */
-        background-color: #f6f6f6;
-        padding: 12px;
-        text-decoration: none;
-        font-size: 18px;
-        color: black;
-        display: block
-    }
-
-    #myUL2 li a:hover:not(.header) {
-        background-color: #eee;
-    }
-</style>
-
-
-
-<p id="demo2"></p>
-
-<script>
-    function learnInternships() {
-        document.getElementById("demo2").innerHTML = "Hello World";
-    }
-    function searchInternships() {
-        var input, filter, ul, li, a, i, txtValue;
-        input = document.getElementById("myInput2");
-        filter = input.value.toUpperCase();
-        ul = document.getElementById("myUL2");
-        li = ul.getElementsByTagName("li");
-        for (i = 0; i < li.length; i++) {
-            a = li[i].getElementsByTagName("b")[0];
-            txtValue = a.textContent || a.innerText;
-            if (txtValue.toUpperCase().indexOf(filter) > -1) {
-                li[i].style.display = "";
-            } else {
-                li[i].style.display = "none";
-            }
-        }
-    }
-</script>
-
-{% block meta %}
-
-<script>
-    function myFunction(){
-
-        // if a and b then set inner html to be 1 if true also do value
-        const a = document.getElementById("boxA")
-        const b = document.getElementById("boxB")
-        const c = document.getElementById("boxC")
-        const d = document.getElementById("boxD")
-        const e = document.getElementById("boxE")
-        const f = document.getElementById("boxF")
-        if (a.checked && b.checked){ // if x is checked and y is checked
-            var str = "STEM Internships";
-            var result = str.link("https://www.pathwaystoscience.org/undergrads.aspx");
-            var str = "Business Internships";
-            var result = str.link("https://www.indeed.com/q-Business-Internship-Summer-l-San-Diego,-CA-jobs.html?vjk=4596ac13ae799775");;
-        }
-        else { // if none or one are checked;
-            if (a.checked)
-            {var str = "STEM Internships";
-                var result = str.link("https://www.pathwaystoscience.org/undergrads.aspx");
-            }
-            else
-            {
-                if (b.checked)
-                {var str = "Business Internships";
-                    var result = str.link("https://www.indeed.com/q-Business-Internship-Summer-l-San-Diego,-CA-jobs})
-                }
-                else {
-                    display("Please Check a Box")
-                }
-            }
-        }
-
-        if (c.checked)
-        {
-            var str = "Law Internships";
-            var result = str.link("https://www.internships.com/legal/san-diego-ca");
-        }
-        else {
-            display("Please Check a Box")
-        }
-
-
-
-        if (!(x.checked && y.checked)){ // if not and (if none or one are checked)
-            document.getElementById("nand").innerHTML = "1";
-        }
-        else { // if and
-            document.getElementById("nand").innerHTML = "0";
-        }
-        if (x.checked || y.checked){ // if x or y is checked
-            document.getElementById("or").innerHTML = "1";
-        }
-        else { // if none are checked
-            document.getElementById("or").innerHTML = "0";
-        }
-        if (!(x.checked || y.checked)){ // if not or (if none are checked)
-            document.getElementById("nor").innerHTML = "1";
-        }
-        else { // if one or both are checked
-            document.getElementById("nor").innerHTML = "0";
-        }
-        if ( ( x.checked && !y.checked ) || ( !x.checked && y.checked ) ){ // if xor (if one is checked but not both)
-            document.getElementById("xor").innerHTML = "1";
-        }
-        else { // if none or both are checked
-            document.getElementById("xor").innerHTML = "0";
-        }
-        if (!x.checked){
-            document.getElementById("not").innerHTML = "1";
-        }
-        else {
-            document.getElementById("not").innerHTML = "0";
-        }
-    }
-
-</script>
-{% endblock %}
 
 <div class="row">
     <div class="col-3">
@@ -195,6 +52,76 @@
     <li><a href="https://www.internships.com/medical/san-diego-ca">Medial</a></li>
     <li><a href="#">Culinary Arts</a></li>
 </ul>
+
+
+<form>
+    <input type="radio" id="STEM" name="internships" value="STEM">
+    <label for="STEM">STEM</label><br>
+    <input type="radio" id="Business" name="internships" value="Business">
+    <label for="Business">Business</label><br>
+    <input type="radio" id="Law" name="internships" value="Law">
+    <label for="Law">Law</label>
+    <input type="radio" id="Art" name="internships" value="Art">
+    <label for="Art">Art</label>
+    <input type="radio" id="Medical" name="internships" value="Medical">
+    <label for="Medical">Medical</label>
+    <input type="radio" id="Culinary Arts" name="internships" value="Culinary Arts">
+    <label for="Culinary Arts">Culinary Arts</label>
+    <button id="Search">Search</button>
+    <br>
+</form>
+
+
+<script>
+    function myFunction(){
+
+        // if a and b then set inner html to be 1 if true also do value
+        const u = document.getElementById("STEM")
+        const v = document.getElementById("Business")
+        const w = document.getElementById("Law")
+        const x = document.getElementById("Art")
+        const y = document.getElementById("Medical")
+        const z = document.getElementById("Culinary Arts")
+        if (u.checked == true){
+            document.getElementById("Search").innerHTML
+                = document.getElementById("STEM").value
+                + "https://www.pathwaystoscience.org/undergrads.aspx"
+        }
+        else {
+             document.getElementById("Search").innerHTML = "Please select one"
+        }
+        if (!(v.checked)){ // if not and (if none or one are checked)
+            document.getElementById("Business").innerHTML = "1";
+        }
+        else { // if and
+            document.getElementById("nand").innerHTML = "0";
+        }
+        if (x.checked || y.checked){ // if x or y is checked
+            document.getElementById("or").innerHTML = "1";
+        }
+        else { // if none are checked
+            document.getElementById("or").innerHTML = "0";
+        }
+        if (!(x.checked || y.checked)){ // if not or (if none are checked)
+            document.getElementById("nor").innerHTML = "1";
+        }
+        else { // if one or both are checked
+            document.getElementById("nor").innerHTML = "0";
+        }
+        if ( ( x.checked && !y.checked ) || ( !x.checked && y.checked ) ){ // if xor (if one is checked but not both)
+            document.getElementById("xor").innerHTML = "1";
+        }
+        else { // if none or both are checked
+            document.getElementById("xor").innerHTML = "0";
+        }
+        if (!x.checked){
+            document.getElementById("not").innerHTML = "1";
+        }
+        else {
+            document.getElementById("not").innerHTML = "0";
+        }
+    }
+</script>
 
 </body>
 </html>
