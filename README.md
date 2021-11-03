@@ -10,6 +10,12 @@ Table of contents:
 ## Purpose
 Our website is a solution to the problem of the unemployment of graduates in the San Diego area. It shows job openings in San Diego, and users can submit resumés to the website so that employers can reach out to them. They can also register for the website, and users can find jobs/internships/summer programs tailored to their tastes.
 
+## How to Use and Run Our Website
+To use our website, first download IntelliJ. Then, use IntelliJ's feature that allows you to access the code directly from the website. Lastly, run the main function using IntelliJ.
+
+## How to Contribute
+To contribute to our project, make changes to code wherever desired. Then use git to push the code from your local machine to the repository. We recommend using IntelliJ to simplify this process. To use IntelliJ make changes to the code wherever desired. Then, click the commit button to create a new commit. Then push the commit to the repository.
+
 ## Description
 Members: Kamya Mahendru, Isabelle Gunawan, Kaavya, Vidhi Kulkarni
  
