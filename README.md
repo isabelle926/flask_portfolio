@@ -7,6 +7,8 @@ Table of contents:
 - project idea 
 - parts of project 
 
+## Purpose
+Our website is a solution to the problem of the unemployment of graduates in the San Diego area. It shows job openings in San Diego, and users can submit resumés to the website so that employers can reach out to them. They can also register for the website, and users can find jobs/internships/summer programs tailored to their tastes.
 
 ## Description
 Members: Kamya Mahendru, Isabelle Gunawan, Kaavya, Vidhi Kulkarni
