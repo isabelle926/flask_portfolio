@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+{% include "layouts/base.html" %}
+<style>
+h1 {
+margin-left: 70px;
+}
+form li {
+list-style: none;
+margin-bottom: 5px;
+}
+
+form ul li label{
+float: left;
+clear: left;
+width: 100px;
+text-align: right;
+margin-right: 10px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:14px;
+}
+
+form ul li input, select, span {
+float: left;
+margin-bottom: 10px;
+}
+
+form textarea {
+float: left;
+width: 350px;
+height: 150px;
+}
+
+[type="submit"] {
+clear: left;
+margin: 20px 0 0 230px;
+font-size:18px
+}
+
+p {
+margin-left: 70px;
+font-weight: bold;
+}
+
+</style>
+
+<script>
+function formValidation() {
+    let uid = document.getElementById("userid"); //set user input for the userid equal to variable "uid"
+    let pass_id = document.getElementById("pass_id");
+    let uname = document.getElementById("username");
+    let u_add = document.getElementById("address");
+    let u_country = document.getElementById("country");
+    let u_zip = document.getElementById("zip");
+
+    if (userid_validation(uid, 5, 12)) { //runs the userid_validation function and sets parameter that min len to 5 and max len to 12
+        if (pass_id_validation(pass_id, 7, 12)) {
+            if (allLetter(uname)) {
+                if (alphanumeric(u_add)) {
+                    if (country_select(u_country)) {
+                        if (all_numeric(u_zip)) {
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+    return false; //if these values are not met, return the value "false"
+}
+
+function userid_validation(uid,mx,my) //userid validation function that is run in the conditional above
+{
+    let uid_len = uid.value.length; //value is a string and length is number
+    if (uid_len == 0 || uid_len >= my || uid_len < mx) //if nothing is typed or length is 0 or less than minlen or greater than maxlen
+    {
+        alert("User Id should not be empty / length be between "+mx+" to "+my); //then alert the user
+        uid.focus(); //focuses or highlights uid text box
+        return false; //return false statement
+    }
+    return true; //if the values are met return true
+}
+function pass_id_validation(pass_id,mx,my)
+{
+    let pass_id_len = pass_id.value.length;
+    if (pass_id_len == 0 ||pass_id_len >= my || pass_id_len < mx)
+    {
+        alert("Password should not be empty / length be between "+mx+" to "+my);
+        pass_id.focus();
+        return false;
+    }
+    return true;
+}
+
+function allLetter(uname)
+{
+    let letters = /^[A-Za-z]+$/; //A-Z lowercase and uppercase
+    if(uname.value.match(letters)) //if the values match the regex
+    {
+        return true; //then return boolean true
+    }
+    else
+    {
+        alert('Username must have alphabet characters only');
+        uname.focus();
+        return false;
+    }
+}
+
+function alphanumeric(u_add)
+{
+    let letters = /^[0-9a-zA-Z- ]+$/;
+    if(u_add.value.match(letters))
+    {
+        return true;
+    }
+    else
+    {
+        alert('User address must have alphanumeric characters only');
+        u_add.focus();
+        return false;
+    }
+}
+
+function country_select(u_country)
+{
+    if(u_country.value == "Default") //if country is not chosen
+    {
+        alert('Select your country from the list'); //then alert user
+        u_country.focus(); //focus on text box
+        return false; //return false value
+    }
+    else
+    {
+        return true;
+    }
+}
+function all_numeric(u_zip)
+{
+    let numbers = /^[0-9]+$/;
+    if(u_zip.value.match(numbers))
+    {
+        alert('Form Successfully Submitted'); //if final condition for zip is met, reload page and submit
+        window.location.reload()
+        return true;
+    }
+    else
+    {
+        alert('ZIP code must have numeric characters only');
+        u_zip.focus();
+        return false;
+    }
+}
+
+
+
+</script>
+
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <title>JavaScript Form Validation using a sample registration form</title>
+    <meta name="keywords" content="example, JavaScript Form Validation, Sample registration form" />
+    <meta name="description" content="This document is an example of JavaScript Form Validation using a sample registration form. " />
+    <link rel='stylesheet' href='js-form-validation.css' type='text/css' />
+    <script src="sample-registration-form-validation.js"></script>
+</head>
+<body onload="document.getElementById("userid").focus();">
+<h1>Registration Form</h1>
+Use tab keys to move from one input field to the next.
+<form action="https://formsubmit.co/jobsforteens123@gmail.com" name='registration' onsubmit="return formValidation();">
+    <ul>
+        <li><label>User id:</label></li>
+        <li><input type="text" id="userid" size="12" /></li>
+        <li><label>Password:</label></li>
+        <li><input type="password" id="pass_id" size="12" /></li>
+        <li><label>Name:</label></li>
+        <li><input type="text" id="username" size="50" /></li>
+        <li><label>Address:</label></li>
+        <li><input type="text" id="address" size="50" /></li>
+        <li><label>Country:</label></li>
+        <li><select id="country">
+            <option selected="" value="Default">(Please select a country)</option>
+            <option value="AF">Australia</option>
+            <option value="AL">Canada</option>
+            <option value="DZ">India</option>
+            <option value="AS">Russia</option>
+            <option value="AD">USA</option>
+        </select></li>
+        <li><label>ZIP Code:</label></li>
+        <li><input type="text" id="zip" /></li>
+        <li><label>Language:</label></li>
+        <li><input type="checkbox" name="en" value="en" checked /><span>English</span></li>
+        <li><input type="checkbox" name="nonen" value="noen" /><span>Non English</span></li>
+        <li><label for="desc">Send us a Message:</label></li>
+        <li><textarea name="desc" id="desc"></textarea></li>
+        <li><input type="submit" name="submit" value="Submit" /></li>
+    </ul>
+</form>
+</body>
+</html>
