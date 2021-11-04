@@ -54,9 +54,10 @@
         restart.addEventListener ("click",restartQuiz);
 
         function Job(){
-            alert("jobs")
+
             jobScore += 1;
             questionCount += 1;
+            alert("Jobs: " + jobScore + ", Internship : " + internshipScore);
             document.getElementById("counter").innerHTML = parseInt(questionCount).toString();
 
             console.log("questionCount =" + questionCount + "jobScore ="+ jobScore);
@@ -70,14 +71,14 @@
 
 
         function Internship(){
-            alert("internship")
+
             internshipScore += 1;
             questionCount += 1;
+            alert("Jobs: " + jobScore + ", Internship : " + internshipScore);
 
-            console.log("questionCount ="+ questionCount+"internshipScore =" + internshipScore);
 
             if (questionCount == 3){
-                console.log ("The quiz is done!")
+
                 updateResult();
 
             }
@@ -112,7 +113,7 @@
 
 <main>
  <h3>What is in your cards. An Internship or a Job based on what food you prefer!</h3>
-    <p> if you are internships person, internships is greater than 2 if you are a jobs person jobs is greater than 2</p>
+    <p> if you are internships person, internships is greater than or equal to 2 if you are a jobs person jobs is greater than or equal to 2</p>
     <h2> Pizza or Pasta?</h2>
     <div class="question">
 
