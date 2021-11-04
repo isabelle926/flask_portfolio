@@ -63,11 +63,38 @@
             opacity: 1;
             right: 0;
         }
+        .column {
+            float: left;
+            width: 33.33%;
+            padding: 5px;
+        }
+
+        /* Clear floats after image containers */
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
     </style>
-    }
-    <a href="http://127.0.0.1:5000/internships/" id="job" ><img src="/static/assets/images/JOBS.png" alt="job" class="thumbnails" width="560" height="560" /></a>
-    <a href="http://127.0.0.1:5000/jobs/" id="internships" ><img src="/static/assets/images/INTERNSHIPS.png" alt="job" class="thumbnails" width="560" height="560" /></a>
-    <a href="http://127.0.0.1:5000/summer_programs/" id="summer programs" ><img src="/static/assets/images/SUMMERPROGRAMS.png" alt="job" class="thumbnails" width="560" height="560" /></a>
+
+    <div class="row">
+        <div class="column">
+            <a href= "http://127.0.0.1:5000/internships/">
+                <img src="/static/assets/images/JOBS.png"  class="thumbnails" width="500" height="500">
+            </a>
+        </div>
+        <div class="column">
+            <a href= "http://127.0.0.1:5000/jobs/">
+                <img src="/static/assets/images/INTERNSHIPS.png"  class="thumbnails" width="500" height="500">
+            </a>
+        </div>
+        <div class="column">
+            <a href= "http://127.0.0.1:5000/summer_programs/">
+                <img src="/static/assets/images/SUMMERPROGRAMS.png"  class="thumbnails" width="500" height="500">
+            </a>
+        </div>
+    </div>
+
 {% endblock %}
 
 
