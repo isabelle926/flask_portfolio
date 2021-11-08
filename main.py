@@ -146,7 +146,9 @@ def signed_addition():
 def practice_interview():
     return render_template("practice_interview.html")
 
-
+@app.route('/registration_form/')
+def registration_form():
+    return render_template("registration_form.html")
 
 
 # runs the application on the development server
