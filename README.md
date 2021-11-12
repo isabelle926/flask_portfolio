@@ -56,9 +56,10 @@ Here are some images of us presenting our project:
 
 
 ## Reflection
-
-
-
+Vidhi's Reflection -- Slides 5 and 6: https://docs.google.com/presentation/d/13zffupNps3zVCqTJNwilhd-5j9G5BcAssqIZHPa_gYI/edit?usp=sharing
+Kaavya's Reflection -- Slides 8 and 9: https://docs.google.com/presentation/d/13zffupNps3zVCqTJNwilhd-5j9G5BcAssqIZHPa_gYI/edit?usp=sharing
+Kamya's Reflection -- Slides 11 and 12: https://docs.google.com/presentation/d/13zffupNps3zVCqTJNwilhd-5j9G5BcAssqIZHPa_gYI/edit?usp=sharing
+Isabelle's Reflection -- Slides 14 and 15: https://docs.google.com/presentation/d/13zffupNps3zVCqTJNwilhd-5j9G5BcAssqIZHPa_gYI/edit?usp=sharing
 
 
 ## Week 9
