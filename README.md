@@ -52,7 +52,7 @@ Quiz: A fun quiz of what job best fits your preference
 | Isabelle| [@isabelle926](https://github.com/isabelle926) | [Tasks](https://github.com/isabelle926/flask_portfolio/issues/assigned/isabelle926) | [Scrum Board](https://github.com/isabelle926/flask_portfolio/projects/1?card_filter_query=assignee%3Aisabelle926) | [Commits](https://github.com/isabelle926/flask_portfolio/commits?author=isabelle926) |
 
 ## Capture the Moment
-Here are some images of us presenting our project:
+[Here is our N@TM Reflection and Team Reflection -- includes Capture the Moment](https://docs.google.com/presentation/d/13zffupNps3zVCqTJNwilhd-5j9G5BcAssqIZHPa_gYI/edit?usp=sharing)
 
 
 ## Reflection
