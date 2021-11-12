@@ -51,6 +51,15 @@ Quiz: A fun quiz of what job best fits your preference
 | Kamya | [@kamyamah](https://github.com/kamyamah) | [Tasks](https://github.com/isabelle926/flask_portfolio/issues/assigned/kamyamah) | [Scrum Board](https://github.com/isabelle926/flask_portfolio/projects/1?card_filter_query=assignee%3Akamyamah) | [Commits]( https://github.com/isabelle926/flask_portfolio/commits?author=kamyamah)|
 | Isabelle| [@isabelle926](https://github.com/isabelle926) | [Tasks](https://github.com/isabelle926/flask_portfolio/issues/assigned/isabelle926) | [Scrum Board](https://github.com/isabelle926/flask_portfolio/projects/1?card_filter_query=assignee%3Aisabelle926) | [Commits](https://github.com/isabelle926/flask_portfolio/commits?author=isabelle926) |
 
+## Capture the Moment
+Here are some images of us presenting our project:
+
+
+## Reflection
+
+
+
+
 
 ## Week 9
 [Ticket with Individual Final Videos](https://github.com/isabelle926/flask_portfolio/issues/87)
