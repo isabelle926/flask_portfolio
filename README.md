@@ -53,7 +53,7 @@ Quiz: A fun quiz of what job best fits your preference
 
 ## Capture the Moment
 Here are some images of us presenting our project:
-![GitHub Logo](/images/github-logo.png)
+
 
 ## Reflection
 Vidhi's Reflection -- [Slides 5 and 6](https://docs.google.com/presentation/d/13zffupNps3zVCqTJNwilhd-5j9G5BcAssqIZHPa_gYI/edit?usp=sharing)
