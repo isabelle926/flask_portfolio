@@ -56,16 +56,16 @@ Quiz: A fun quiz of what job best fits your preference
 
 
 ## Reflection
-Vidhi's Reflection -- [Slides 5 and 6](https://docs.google.com/presentation/d/13zffupNps3zVCqTJNwilhd-5j9G5BcAssqIZHPa_gYI/edit?usp=sharing)
+Vidhi's Reflection -- [Slides 6, 7, and 8](https://docs.google.com/presentation/d/13zffupNps3zVCqTJNwilhd-5j9G5BcAssqIZHPa_gYI/edit?usp=sharing)
 
 
-Kaavya's Reflection -- [Slides 8 and 9](https://docs.google.com/presentation/d/13zffupNps3zVCqTJNwilhd-5j9G5BcAssqIZHPa_gYI/edit?usp=sharing)
+Kaavya's Reflection -- [Slides 9, 10, and 11](https://docs.google.com/presentation/d/13zffupNps3zVCqTJNwilhd-5j9G5BcAssqIZHPa_gYI/edit?usp=sharing)
 
 
-Kamya's Reflection -- [Slides 11 and 12](https://docs.google.com/presentation/d/13zffupNps3zVCqTJNwilhd-5j9G5BcAssqIZHPa_gYI/edit?usp=sharing)
+Kamya's Reflection -- [Slides 12, 13, and 14](https://docs.google.com/presentation/d/13zffupNps3zVCqTJNwilhd-5j9G5BcAssqIZHPa_gYI/edit?usp=sharing)
 
 
-Isabelle's Reflection -- [Slides 14 and 15](https://docs.google.com/presentation/d/13zffupNps3zVCqTJNwilhd-5j9G5BcAssqIZHPa_gYI/edit?usp=sharing)
+Isabelle's Reflection -- [Slides 15, 16, and 17](https://docs.google.com/presentation/d/13zffupNps3zVCqTJNwilhd-5j9G5BcAssqIZHPa_gYI/edit?usp=sharing)
 
 
 ## Week 9
